@@ -119,3 +119,14 @@
     font-size: 1.2rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .hero-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btns {
+    width: 100%;
+    max-width: 300px;
+  }
+}
