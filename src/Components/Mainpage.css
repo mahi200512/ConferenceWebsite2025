@@ -1,0 +1,121 @@
+/* Hero Section */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+}
+
+/* Image Background Styling */
+.hero-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px); /* Applying blur effect */
+  z-index: -1; /* Ensuring the image stays in the background */
+  transition: filter 0.5s ease-in-out; /* Smooth transition for blur */
+}
+
+/* Add more intense blur on hover */
+.hero-container:hover img {
+  filter: blur(10px); /* Increase blur when hovered */
+}
+
+/* Hero Title Animation (fade-in) */
+.fade-in {
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeSlideIn 1s ease-out forwards;
+}
+
+/* Subtitle Animation (fade-in delay) */
+.fade-in-delay {
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out 0.5s forwards;
+}
+
+/* Button Container with Animation */
+.hero-btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out 1s forwards;
+}
+
+/* Button Styling */
+.btns {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adding subtle shadow */
+  background: rgba(255, 255, 255, 0.3); /* Semi-transparent button background */
+}
+
+/* Hover Effect for Buttons */
+.btns:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.5); /* Lighter background on hover */
+}
+
+/* Slide-in Animation for Host Venue Text */
+.fade-in-late {
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1.5s ease-in-out 1.5s forwards;
+}
+
+/* Keyframe Animations */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .fade-in {
+    font-size: 2rem;
+  }
+  .fade-in-delay {
+    font-size: 1.1rem;
+  }
+  .btns {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .fade-in-late {
+    font-size: 1.2rem;
+  }
+}
