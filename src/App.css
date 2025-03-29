@@ -258,30 +258,18 @@ body {
   margin-bottom: 15px;
 }
 
-.about-highlight {
-  color: #0077b6;
-  font-weight: 600;
+/* General Styling */
+.about-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
 }
 
-.about-past-editions ul {
-  list-style: disc;
-  text-align: left;
-  margin: 0 auto 10px;
-  padding-left: 20px;
-}
-
-.about-link {
-  display:inline-block;
-  margin-top: 10px;
-  font-size: medium;
-  text-decoration: none;
-  color: #0077b6;
-  font-weight:100;
-  border: 1px solid #0077b6;
-  padding: 1px 10px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
+/* Banner Section */
 .about-banner-section {
   position: relative;
   width: 100%;
@@ -305,21 +293,92 @@ body {
   text-align: center;
   padding: 0 20px;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  animation: slideDown 1s ease-in-out;
 }
 
+/* Description Styling */
+.about-description {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-description:hover {
+  transform: scale(1.02);
+}
+
+.about-highlight {
+  color: #0077b6;
+  font-weight: 600;
+}
+
+/* Past Editions */
+.about-past-editions {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.past-title {
+  font-size: 22px;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.about-past-editions ul {
+  list-style: disc;
+  text-align: left;
+  margin: 0 auto 10px;
+  padding-left: 20px;
+}
+
+/* Link Styling */
+.about-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #0077b6;
+  font-weight: 600;
+  border: 2px solid #0077b6;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
 
 .about-link:hover {
   background-color: #0077b6;
   color: white;
+  transform: scale(1.05);
 }
 
-/* COMMITTEE CONTAINER STYLING */
-.committee-container {
-  padding: 40px 20px;
-  background: #f0f8ff;
-  font-family: 'Segoe UI', sans-serif;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-banner-title {
+    font-size: 2rem;
+  }
+  .about-description {
+    font-size: 16px;
+  }
+  .past-title {
+    font-size: 20px;
+  }
 }
 
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-20px); }
+  to { transform: translateY(0); }
+}
 .about-banner-section {
   text-align: center;
   margin-bottom: 30px;
@@ -331,74 +390,67 @@ body {
   font-weight: 700;
 }
 
-/* COMMITTEE SECTION */
-.committee-section {
-  background: white;
-  border-radius: 12px;
-  padding: 30px 20px;
-  margin: 20px auto;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+/* COMMITTEE CONTAINER STYLING */
+.committee-container {
+  padding: 40px 20px;
+  background: #f0f8ff;
+  font-family: 'Segoe UI', sans-serif;
+}
+.committee-container {
   max-width: 100%;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: auto;
+  padding: 20px;
 }
 
-.committee-section:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+.committee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 10px;
+}
+
+/* Committee Sections */
+.committee-section {
+  background: #f8f9fa; /* Light gray */
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom:10px;
 }
 
 .committee-section h2 {
-  font-size: 1.8rem;
-  color: #ffffff;
+  color: #003366;
+  font-size: 1.5rem;
   margin-bottom: 10px;
-  border-bottom: 2px solid #00b4d8;
-  display: inline-block;
-  padding-bottom: 4px;
 }
 
-.committee-section p,
-.committee-section li {
-  font-size: 1.05rem;
+.committee-section p {
+  font-size: 1rem;
   color: #333;
-  margin: 6px 0;
-  line-height: 1.6;
+  margin-bottom: 5px;
 }
 
-/* LIST */
-.committee-section ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 10px;
+/* Hover Effect */
+.committee-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.committee-section ul li {
-  background-color: #e0f7fa;
-  padding: 10px 16px;
-  border-radius: 8px;
-  margin-bottom: 8px;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-banner-section {
+    font-size: 2rem;
+  }
 
-.committee-section ul li:hover {
-  background-color: #b2ebf2;
-  transform: scale(1.02);
-}
+  .committee-grid {
+    grid-template-columns: 1fr;
+  }
 
-/* LINK STYLING */
-.committee-link {
-  display: inline-block;
-  margin-top: 10px;
-  color: #0077b6;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
+  .committee-section {
+    padding: 15px;
+  }
 }
-
-.committee-link:hover {
-  color: #00b4d8;
-  text-decoration: underline;
-}
-
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
   .about-banner-title {
@@ -437,28 +489,91 @@ body {
     font-size: 0.95rem;
   }
 }
+.papers-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
 
+/* Banner Styling */
+.about-banner-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-/* Call for Papers */
+.about-banner-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #004085;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Call for Papers Section Styles */
+.papers-container h2 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  color: #0056b3;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+/* Accepted Papers - Grid Layout */
 .accepted-papers-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-} 
-
-.accepted-papers-table th,
-.accepted-papers-table td {
-  border: 1px solid #ccc;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
-.accepted-papers-table th {
-  background-color: #caf0f8;
-  color: #03045e;
+/* Individual Paper Card */
+.paper-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 5px solid #007bff;
+  font-size: 1rem;
 }
 
-.accepted-papers-table td {
-  background-color: #f1f1f1;
+.paper-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 123, 255, 0.2);
+  cursor: pointer;
+  border-left: 5px solid #0056b3;
+}
+
+/* Lists in Call for Papers Section */
+.papers-container ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.papers-container li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .about-banner-title {
+    font-size: 2.2rem;
+  }
+
+  .papers-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .paper-card {
+    font-size: 0.95rem;
+  }
+
+  .papers-container {
+    padding: 1.2rem;
+  }
 }
 
 /* General Styles for the Schedule Component */
