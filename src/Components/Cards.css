@@ -2,6 +2,9 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  margin-left: 250px; /* Account for sidebar */
+  width: calc(100% - 250px); /* Adjust width */
+  box-sizing: border-box;
 }
 
 h1 {
@@ -35,6 +38,8 @@ h1 {
 .cards__item {
   display: flex;
   flex: 1;
+  position: relative;
+  right:35px;
   min-width: 280px;
   max-width: 350px;
   border-radius: 10px;
@@ -81,9 +86,11 @@ h1 {
 }
 
 .cards__item__img {
-  width: 100%;
+  width: 80%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
+  position: relative;
+  right:50px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -104,37 +111,42 @@ h1 {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+  .cards {
+    margin-left: 0;
+    width: 100%;
+  }
+
   .cards__items {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .cards__item {
-      width: 90%;
+    width: 90%;
   }
 }
 
 @media (max-width: 768px) {
   .cards {
-      padding: 2rem;
+    padding: 2rem;
   }
 
   .cards__item {
-      width: 100%;
-      margin-bottom: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
   }
 
   .cards__item__pic-wrap {
-      height: 180px;
+    height: 180px;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .cards__item__info {
-      padding: 15px;
+    padding: 15px;
   }
 }
