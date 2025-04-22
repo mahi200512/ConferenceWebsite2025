@@ -202,8 +202,7 @@
     width: 100%; /* Ensure it takes full width */
     height: 100vh; /* Force it to take up full screen height */
     margin-left: 0; 
-    margin-right: 0; /* Remove sidebar offset */
-    margin-top: calc(100%-75px); /* Adjust for navbar */
+    margin-right: 0; /* Remove sidebar offset *//* Adjust for navbar */
   }
   /* .scrolling-strip {
     width: 96vw;} */
