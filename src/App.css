@@ -74,6 +74,7 @@ section.in-view {
 .about-container {
   max-width: 100%;
   margin-left: 250px;
+  margin-top: 75px;
   padding: 2rem;
   background-color: #ffffff;
   border-radius: 12px;
@@ -83,7 +84,29 @@ section.in-view {
   transition: margin-left 0.3s ease;
   animation: fadeIn 1s forwards;
 }
-
+.committee-banner-section{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url('/public/images/IIITNRNightImage.jpeg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  animation: fadeIn 1s forwards;
+}
+.committee-banner-title{
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  animation: slideDown 1s ease-in-out;
+}
 .about-banner-section {
   position: relative;
   width: 100%;
@@ -108,7 +131,29 @@ section.in-view {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
   animation: slideDown 1s ease-in-out;
 }
-
+.speakers-banner-section{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url('/public/images/unnamed.png');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  animation: fadeIn 1s forwards;
+}
+.speakers-banner-title{
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  animation: slideDown 1s ease-in-out;
+}
 .about-description {
   font-size: 18px;
   color: #333;
@@ -170,6 +215,7 @@ section.in-view {
 .papers-container {
   max-width: 100%;
   margin-left: 250px;
+  margin-top: 75px;
   padding: 2rem;
   background-color: #ffffff;
   border-radius: 12px;
@@ -188,6 +234,7 @@ section.in-view {
 .committee-container {
   background: #f0f8ff;
   margin-left: 250px;
+  margin-top: 75px;
   padding: 2rem;
   border-radius: 12px;
   transition: margin-left 0.3s ease;
@@ -222,6 +269,7 @@ section.in-view {
 .schedule-container {
   margin-left: 250px;
   padding: 2rem;
+  margin-top: 75px;
   background: #ffffff;
   border-radius: 12px;
   transition: margin-left 0.3s ease;
@@ -291,6 +339,7 @@ section.in-view {
 .speakers-container {
   margin-left: 250px;
   padding: 2rem;
+  margin-top: 75px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
@@ -329,6 +378,7 @@ section.in-view {
 /* Contact Section */
 .contact-container {
   margin-left: 250px;
+  margin-top: 75px;
   padding: 2rem;
   background: #ffffff;
   border-radius: 12px;
@@ -346,6 +396,7 @@ section.in-view {
 .venue-container {
   margin-left: 250px;
   padding: 2rem;
+  margin-top: 75px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);

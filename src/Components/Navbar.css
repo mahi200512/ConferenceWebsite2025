@@ -172,7 +172,8 @@
   /* Off-canvas nav links */
   .nav-menu {
     position: absolute;
-    top: 473px; /* Adjust if necessary */
+    top: 53%;
+    right:2%; /* Adjust if necessary */
     left: -100%; /* Off-screen initially */
     width: 100%;
     height: calc(100vh - 75px);

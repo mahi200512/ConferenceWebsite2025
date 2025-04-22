@@ -2,6 +2,8 @@
   --primary: #ffffff;
   --primary-dark: #e0e0e0;
   --white: #ffffff;
+  --blue: #002855;
+  --blue-light: #00509e;
   --gray-dark: #242424;
   --transition: 0.3s ease;
 }
@@ -9,58 +11,61 @@
 /* Base Button */
 .btn {
   display: inline-block;
-  font-weight: 500;
-  border-radius: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 0.75rem;
   outline: none;
   border: none;
   cursor: pointer;
-  transition: 
-    transform var(--transition), 
-    box-shadow var(--transition), 
-    background-color var(--transition), 
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition),
+    background-color var(--transition),
     color var(--transition);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
-/* Hover & Active States */
+/* Hover & Active */
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 .btn:active {
   transform: translateY(0);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Primary Filled */
 .btn--primary {
-  background-color: var(--white);
-  color: var(  --gray-dark);
-  border: 1px solid var(--white);
+  background-color: var(--blue);
+  color: var(--white);
+  border: 1px solid var(--blue);
 }
 .btn--primary:hover {
-  background-color: var(--primary-dark);
-  border-color: var(--primary-dark);
-  color: var(  --gray-dark);
+  background-color: var(--blue-light);
+  border-color: var(--blue-light);
+  color: var(--white);
 }
 
 /* Outline */
 .btn--outline {
   background-color: transparent;
-  color: var(--white);
-  border: 2px solid var(--white);
+  color: var(--blue);
+  border: 2px solid var(--blue);
 }
 .btn--outline:hover {
-  background-color: var(--white);
-  color: var(--gray-dark);
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 /* Sizes */
 .btn--medium {
-  padding: 0.75rem 1.5rem;
+  padding: 0.65rem 1.4rem;
   font-size: 1rem;
 }
 .btn--large {
-  padding: 1rem 2rem;
+  padding: 0.85rem 2rem;
   font-size: 1.125rem;
 }

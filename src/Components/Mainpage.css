@@ -2,7 +2,7 @@
 .hero-container {
   position: relative;
   width: calc(100% - 250px); /* Default layout for large screens */
-  height: 100vh;
+  /* height: 100vh; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -10,45 +10,144 @@
   align-items: center;
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 255, 255);
   margin-left: 250px; /* Space for fixed sidebar */
-  padding: 20px;
+  
   box-sizing: border-box;
   transition: all 0.4s ease-in-out;
+  margin-bottom: 40px;
 }
 
-/* Background image */
-.bgbg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: blur(5px);
-  z-index: -1;
-  transition: filter 0.5s ease-in-out;
-}
 .hero-container:hover .bgbg {
   filter: blur(10px);
 }
 .MainLogo {
   filter: none;
 }
+/* Banner background */
+.mainTitle-banner-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 20px;
+  color: white;
+  width:100%;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  transition: background-image 1s ease-out;
+  
+}
 
-/* Animations */
-.fade-in {
+/* Title Style with Background Overlay */
+.mainTitle-banner-title {
+  color: #ffffff;
   font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Enhanced text-shadow for better visibility */
+  position: relative;
+  z-index: 2; /* Ensure title is on top of other elements */
+}
+
+.mainTitle-banner-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.096); /* Semi-transparent dark overlay */
+  z-index: 1; /* Place overlay behind title */
+}
+
+
+/* Scrolling Strip */
+.scrolling-strip {
+  width: 100%;
+  background-color: #002855;
+  overflow: hidden;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.scrolling-list {
+  display: flex;
+  gap: 40px;
+  animation: scroll-left 25s linear infinite;
+  padding-left: 100%;
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.scrolling-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: color 0.3s;
+}
+/* Conference Details */
+.conference-details {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.conference-dates {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #002855;
+  margin-bottom: 10px;
+}
+
+.conference-description {
+  font-size: 1rem;
+  color: #555;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.scrolling-list li a:hover {
+  color: #00ffff;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Animate.css CDN (optional if not already added) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+.proceedings-info {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: #002855; /* Dark blue text for contrast */
+  padding: 12px 20px;
+  background-color: #e6f2ff; /* Light blue background */
+  border-left: 5px solid #00bcd4;
+  border-radius: 8px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  animation-delay: 0.8s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.springer-highlight {
+  color: #0077b6;
   font-weight: bold;
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeSlideIn 1s ease-out forwards;
 }
-.fade-in-delay {
-  font-size: 1.5rem;
-  opacity: 0;
-  animation: fadeIn 1.5s ease-in-out 0.5s forwards;
-}
+
+
 .hero-btns {
   margin-top: 20px;
   display: flex;
@@ -104,12 +203,17 @@
     height: 100vh; /* Force it to take up full screen height */
     margin-left: 0; 
     margin-right: 0; /* Remove sidebar offset */
-    margin-top: 75px; /* Adjust for navbar */
+    margin-top: calc(100%-75px); /* Adjust for navbar */
   }
+  /* .scrolling-strip {
+    width: 96vw;} */
 }
 
 /* Small screens */
 @media screen and (max-width: 768px) {
+  .hero-container{
+    height:40%;
+  }
   .fade-in {
     font-size: 2rem;
   }
@@ -139,7 +243,7 @@
 @media screen and (max-width: 420px) {
   .hero-container {
     width: 100vw; /* Full screen width */
-    height: 100vh; /* Full screen height */
+    height:20%; /* Full screen height */
     margin-left: 0; /* Ensure no extra spacing */ /* Adjust for navbar */
   }
 }

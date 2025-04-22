@@ -73,8 +73,8 @@ const Speakers = () => {
         <div className="speakers-container">
             {/* Heading */}
 
-            <div className="about-banner-section">
-        <h1 className="about-banner-title">SPEAKERS</h1>
+            <div className="speakers-banner-section">
+        <h1 className="speakers-banner-title">SPEAKERS</h1>
       </div>
             {/* Table of Speaker Names & Organizations */}
             <table className="speakers-table">

@@ -4,8 +4,8 @@ import "../../App.css"; // Ensure this is correctly linked or use Committee.css 
 const Committee = () => {
   return (
     <div className="committee-container">
-      <div className="Committee-banner-section">
-        <h1 className="Committee-banner-title">COMMITTEE</h1>
+      <div className="committee-banner-section">
+        <h1 className="committee-banner-title">COMMITTEE</h1>
       </div>
       <div className="committee-grid">
         <div className="committee-column">
