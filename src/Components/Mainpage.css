@@ -242,7 +242,7 @@
 @media screen and (max-width: 420px) {
   .hero-container {
     width: 100vw; /* Full screen width */
-    height:20%; /* Full screen height */
+    /* height:20%; Full screen height */
     margin-left: 0; /* Ensure no extra spacing */ /* Adjust for navbar */
   }
 }
