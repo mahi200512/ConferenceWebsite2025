@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import './Mainpage.css';
 import '../App.css';
 
 const bannerImages = [
-  '/images/IIITNRRR.png',
-  '/images/IIITNRTTopView.png',
   '/images/IIITNRFrontDroneView.png',
-  '/images/IIITNRNightImage.jpeg'
+  '/images/AtalNagarVikasPradhikaran.jpg',
+  '/images/IIITNRNightImage.jpeg',
+  '/images/museum.jpg',
+  '/images/junglesafari.jpg'
 ];
 
 function Mainpage() {
@@ -29,6 +31,18 @@ function Mainpage() {
           backgroundImage: `url(${bannerImages[currentImage]})`
         }}
       >
+<div className="logo-left">
+  <Link to="/">
+    <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
+  </Link>
+</div>
+
+<div className="logo-right">
+  <Link to="/">
+    <img src="/images/ICISS_logo-removebg-preview.png" alt="Logo2" className="logo" />
+  </Link>
+  </div>
+
         <h1 className="mainTitle-banner-title">
           20th International Conference on Information Systems Security
         </h1>

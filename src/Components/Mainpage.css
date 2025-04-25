@@ -23,33 +23,57 @@
 }
 .MainLogo {
   filter: none;
-}
-/* Banner background */
-.mainTitle-banner-section {
+}.mainTitle-banner-section {
+  display: flex;
+  justify-content: center;  /* horizontally center children */
+  
+  align-items: center;
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 70px 20px;
   color: white;
-  width:100%;
+  width: 100%;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
   transition: background-image 1s ease-out;
-  
+  overflow-x: hidden;
+}
+/* Logo Positioning */
+.logo-left,
+.logo-right {
+  position: absolute;
+  top: 20px;
+  z-index: 100;
+}
+.logo {
+  width: 80px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
-/* Title Style with Background Overlay */
+.logo-left {
+  left: 30px;
+  height:10px;
+  width: 10px;
+}
+
+.logo-right {
+  right: 40px;
+}
+
 .mainTitle-banner-title {
   color: #ffffff;
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Enhanced text-shadow for better visibility */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   position: relative;
-  z-index: 2; /* Ensure title is on top of other elements */
+  z-index: 2;
+  margin: 0; /* prevents unwanted spacing */
 }
 
-.mainTitle-banner-section::before {
+/* .mainTitle-banner-section::before {
   content: '';
   position: absolute;
   top: 0;
@@ -57,8 +81,8 @@
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.096); /* Semi-transparent dark overlay */
-  z-index: 1; /* Place overlay behind title */
-}
+  /* z-index: 1; Place overlay behind title */
+ 
 
 
 /* Scrolling Strip */

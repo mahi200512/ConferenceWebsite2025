@@ -1,11 +1,58 @@
+import { useState, useEffect } from 'react';
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../../App.css"; // Ensure this is correctly linked or use Committee.css if separate
-
+const bannerImages = [
+  '/images/IIITNRRR.png',
+  '/images/IIITNRTTopView.png',
+  '/images/IIITNRFrontDroneView.png',
+  '/images/IIITNRNightImage.jpeg'
+];
 const Committee = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentImage((prev) => (prev + 1) % bannerImages.length);
+      }, 5000); // Change every 5 seconds
+  
+      return () => clearInterval(interval);
+    }, []);
   return (
     <div className="committee-container">
-      <div className="committee-banner-section">
-        <h1 className="committee-banner-title">COMMITTEE</h1>
+        <div
+        className="mainTitle-banner-section"
+        style={{
+          backgroundImage: `url(${bannerImages[currentImage]})`
+        }}
+      >
+      
+<div className="logo-left">
+  <Link to="/">
+    <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
+  </Link>
+</div>
+
+<div className="logo-right">
+  <Link to="/">
+    <img src="/images/ICISS_logo-removebg-preview.png" alt="Logo2" className="logo" />
+  </Link>
+</div>
+        <h1 className="mainTitle-banner-title">
+          ICISS -2026 Committee
+        </h1>
+      </div>
+      <div className="scrolling-strip">
+        <ul className="scrolling-list">
+          <li><a href="/Schedule">📅 Conference Schedule</a></li>
+          <li><a href="/news">📰 Latest News</a></li>
+          <li><a href="/proceedings">📘 Online Proceedings</a></li>
+          <li><a href="/venue">📍 Venue Details</a></li>
+          <li><a href="/footer">📍 Quick Link</a></li>
+          <li><a href="/query">📍 Queries</a></li>
+          <li><a href="/FAQs">📍 Frequently asked questions</a></li>
+          <li><a href="/commitee">📍 Commitee members</a></li>
+        </ul>
       </div>
       <div className="committee-grid">
         <div className="committee-column">

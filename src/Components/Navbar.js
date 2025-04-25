@@ -6,12 +6,12 @@ import { Button } from './Button';
 function Navbar() {
   const [click, setClick] = useState(false); // Handle menu toggle (for mobile)
   const [button, setButton] = useState(true); // Show button based on screen size
-  const [collapsed, setCollapsed] = useState(false); // Sidebar collapse state
+  const [collapsed] = useState(false); // Sidebar collapse state
 
   const handleClick = () => setClick(!click); // Toggle menu
   const closeMobileMenu = () => setClick(false); // Close menu on item click
 
-  const toggleSidebar = () => setCollapsed(!collapsed); // Toggle sidebar on desktop
+  // const toggleSidebar = () => setCollapsed(!collapsed); // Toggle sidebar on desktop
 
   // Update button visibility based on screen size
   const showButton = () => {
@@ -31,13 +31,13 @@ function Navbar() {
   return (
     <>
       <nav className={`Navbar ${collapsed ? 'collapsed' : ''}`}>
-        <div className="toggle-btn" onClick={toggleSidebar}>
+        {/* <div className="toggle-btn" onClick={toggleSidebar}>
           {collapsed ? '>' : '<'}
-        </div>
+        </div> */}
         <div className="navbarContainer">
-          <Link to="/" className="navbarLogo" onClick={closeMobileMenu}>
+          {/* <Link to="/" className="navbarLogo" onClick={closeMobileMenu}>
             <img src="ICISS logo.png" alt="IIITNRlogo" className="logo" />
-          </Link>
+          </Link> */}
 
           {/* Hamburger icon and menu toggle */}
           <div className="menu-icon" onClick={handleClick}>

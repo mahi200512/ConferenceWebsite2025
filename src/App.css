@@ -9,6 +9,63 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Banner background */
+.mainTitle-banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 20px;
+  color: white;
+  width: 100%;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  transition: background-image 1s ease-out;
+}
+
+/* Title Style with Background Overlay */
+.mainTitle-banner-title {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 20%;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2; /* Ensure title is on top of other elements */
+}
+
+
+
+/* Scrolling Strip */
+.scrolling-strip {
+  width: 100%;
+  background-color: #002855;
+  overflow: hidden;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.scrolling-list {
+  display: flex;
+  gap: 40px;
+  animation: scroll-left 25s linear infinite;
+  padding-left: 100%;
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.scrolling-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: color 0.3s;
+}
 /* Navbar */
 .navbar {
   background-color: #ffffff;
@@ -74,8 +131,7 @@ section.in-view {
 .about-container {
   max-width: 100%;
   margin-left: 250px;
-  margin-top: 75px;
-  padding: 2rem;
+  margin-top: 0;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
@@ -84,76 +140,7 @@ section.in-view {
   transition: margin-left 0.3s ease;
   animation: fadeIn 1s forwards;
 }
-.committee-banner-section{
-  position: relative;
-  width: 100%;
-  height: 300px;
-  background-image: url('/public/images/IIITNRNightImage.jpeg');
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  animation: fadeIn 1s forwards;
-}
-.committee-banner-title{
-  color: #ffffff;
-  font-size: 3rem;
-  font-weight: bold;
-  padding: 0 20px;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-  animation: slideDown 1s ease-in-out;
-}
-.about-banner-section {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  background-image: url('/public/images/IIITNRRR.png');
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  animation: fadeIn 1s forwards;
-}
 
-.about-banner-title {
-  color: #ffffff;
-  font-size: 3rem;
-  font-weight: bold;
-  padding: 0 20px;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-  animation: slideDown 1s ease-in-out;
-}
-.speakers-banner-section{
-  position: relative;
-  width: 100%;
-  height: 300px;
-  background-image: url('/public/images/unnamed.png');
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  animation: fadeIn 1s forwards;
-}
-.speakers-banner-title{
-  color: #ffffff;
-  font-size: 3rem;
-  font-weight: bold;
-  padding: 0 20px;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-  animation: slideDown 1s ease-in-out;
-}
 .about-description {
   font-size: 18px;
   color: #333;
@@ -215,8 +202,6 @@ section.in-view {
 .papers-container {
   max-width: 100%;
   margin-left: 250px;
-  margin-top: 75px;
-  padding: 2rem;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
@@ -234,8 +219,7 @@ section.in-view {
 .committee-container {
   background: #f0f8ff;
   margin-left: 250px;
-  margin-top: 75px;
-  padding: 2rem;
+  
   border-radius: 12px;
   transition: margin-left 0.3s ease;
 }
@@ -268,8 +252,7 @@ section.in-view {
 /* Schedule Section */
 .schedule-container {
   margin-left: 250px;
-  padding: 2rem;
-  margin-top: 75px;
+  
   background: #ffffff;
   border-radius: 12px;
   transition: margin-left 0.3s ease;
@@ -337,13 +320,88 @@ section.in-view {
 
 /* Speakers Section */
 .speakers-container {
-  margin-left: 250px;
-  padding: 2rem;
-  margin-top: 75px;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-  animation: fadeIn 1s forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.096);
+}
+
+.speakers-intro {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-top: 8px;
+  text-align: center;/* Overlaps slightly with the banner */
+  border-radius: 10px;
+  width:90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.speakers-intro h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.speakers-intro p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.speakers-carrd {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.speaker-carrd {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.speaker-card:hover {
+  transform: scale(1.05);
+}
+
+.speaker-card img {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 20px;
+  object-fit: cover;
+}
+
+.speaker-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.speaker-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.speaker-carrd a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.speaker-carrd a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 960px) {
+  .speakers-carrd {
+    margin-left: 0;
+  }
 }
 
 .speaker-summary {
@@ -378,8 +436,7 @@ section.in-view {
 /* Contact Section */
 .contact-container {
   margin-left: 250px;
-  margin-top: 75px;
-  padding: 2rem;
+  
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
@@ -389,14 +446,11 @@ section.in-view {
 .contact-container h1 {
   margin-bottom: 1.5rem;
   font-size: clamp(1.5rem, 3vw + 1rem, 2.5rem);
-  color: #03045e;
 }
 
 /* Venue Section */
 .venue-container {
   margin-left: 250px;
-  padding: 2rem;
-  margin-top: 75px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
@@ -407,6 +461,25 @@ section.in-view {
   font-size: clamp(1.5rem, 3vw + 1rem, 2.5rem);
   color: #03045e;
   margin-bottom: 1rem;
+}
+.speakers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Animations */

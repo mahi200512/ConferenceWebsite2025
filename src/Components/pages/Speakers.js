@@ -1,7 +1,15 @@
 import React from "react";
+import  { useState, useEffect } from 'react';
 import "../../App.css"; // Ensure CSS file is correctly linked
-
-const speakers = [
+import SpeakerCard from './SpeakerCard';
+import { Link } from 'react-router-dom';
+const bannerImages = [
+    '/images/IIITNRRR.png',
+    '/images/IIITNRTTopView.png',
+    '/images/IIITNRFrontDroneView.png',
+    '/images/IIITNRNightImage.jpeg'
+  ];
+const speakersData = [
     {
         name: "Aanchal Malhotra",
         organization: "Ripple",
@@ -69,49 +77,64 @@ const speakers = [
 ];
 
 const Speakers = () => {
-    return (
-        <div className="speakers-container">
-            {/* Heading */}
+  const [currentImage, setCurrentImage] = useState(0);
 
-            <div className="speakers-banner-section">
-        <h1 className="speakers-banner-title">SPEAKERS</h1>
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % bannerImages.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="speakers-container">
+      <div
+        className="mainTitle-banner-section"
+        style={{
+          backgroundImage: `url(${bannerImages[currentImage]})`
+        }}
+      >
+
+<div className="logo-left">
+  <Link to="/">
+    <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
+  </Link>
+</div>
+
+<div className="logo-right">
+  <Link to="/">
+    <img src="/images/ICISS_logo-removebg-preview.png" alt="Logo2" className="logo" />
+  </Link>
+</div>
+        <h1 className="mainTitle-banner-title">
+          ICISS - 2026 Speakers
+        </h1>
+        
+      </div> 
+      <div className="scrolling-strip">
+        <ul className="scrolling-list">
+          <li><a href="/Schedule">📅 Conference Schedule</a></li>
+          <li><a href="/news">📰 Latest News</a></li>
+          <li><a href="/proceedings">📘 Online Proceedings</a></li>
+          <li><a href="/venue">📍 Venue Details</a></li>
+          <li><a href="/footer">📍 Quick Link</a></li>
+          <li><a href="/query">📍 Queries</a></li>
+          <li><a href="/FAQs">📍 Frequently asked questions</a></li>
+          <li><a href="/commitee">📍 Commitee members</a></li>
+        </ul>
       </div>
-            {/* Table of Speaker Names & Organizations */}
-            <table className="speakers-table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Organization</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {speakers.map((speaker, index) => (
-                        <tr key={index}>
-                            <td>{speaker.name}</td>
-                            <td>{speaker.organization}</td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
-
-            {/* Speaker Summaries */}
-            <h2 className="section-title">Speaker Summaries</h2>
-            {speakers.map((speaker, index) => (
-                <div className="speaker-summary" key={index}>
-                    <img className="speaker-image" src={speaker.image} alt={speaker.name} />
-                    <div className="speaker-details">
-                        <h3>{speaker.name}</h3>
-                        <h4>{speaker.organization}</h4>
-                        <h5><strong>{speaker.title}</strong></h5>
-                        <p>{speaker.abstract}</p>
-                        <a className="speaker-link" href={speaker.webpage} target="_blank" rel="noopener noreferrer">
-                            More Info
-                        </a>
-                    </div>
-                </div>
-            ))}
-        </div>
-    );
+      <div className="speakers-intro">
+  <h2>Meet Our Esteemed Speakers</h2>
+  <p>Discover the minds shaping the future of Information Systems Security.</p>
+</div> <div className="speakers-carrd
+      ">
+    {speakersData.map(speaker => (
+      <SpeakerCard key={speaker.id} {...speaker} />
+    ))}
+  </div>
+    </div>
+  );
 };
 
 export default Speakers;
