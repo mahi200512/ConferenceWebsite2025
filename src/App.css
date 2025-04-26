@@ -388,21 +388,8 @@ section.in-view {
   color: #666;
 }
 
-.speaker-carrd a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-.speaker-carrd a:hover {
-  text-decoration: underline;
-}
 
 
-@media (max-width: 960px) {
-  .speakers-carrd {
-    margin-left: 0;
-  }
-}
 
 .speaker-summary {
   display: flex;
@@ -417,9 +404,7 @@ section.in-view {
 }
 
 .speaker-image {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
+  border-radius: 5px;
   object-fit: cover;
   margin-right: 1.25rem;
 }
@@ -480,6 +465,7 @@ section.in-view {
     flex-direction: column;
     align-items: center;
   }
+  
 }
 
 /* Animations */
@@ -520,16 +506,23 @@ section.in-view {
   .navbar ul {
     flex-direction: column;
   }
-  
   .speaker-summary {
     flex-direction: column;
     text-align: center;
   }
-
+  .speaker-card img {
+    width: 80%;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    object-fit: cover;
+  }
   .schedule-tabs {
     flex-direction: column;
   }
-
+  .speakers-carrd {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .schedule-tabs button {
     margin: 0.25rem 0;
   }
@@ -539,7 +532,9 @@ section.in-view {
   .home {
     font-size: clamp(1.75rem, 5vw + 1rem, 2.5rem);
   }
-  
+  .speakers-carrd {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .about-banner-title,
   .schedule-container h1,
   .contact-container h1,
@@ -553,5 +548,27 @@ section.in-view {
   * {
     animation: none !important;
     transition: none !important;
+  }
+}
+@media screen and (max-width: 958px){
+  .mainTitle-banner-section{
+    width: 100%;
+  }
+  .scrolling-strip{
+    width: 100vw
+  }
+}
+@media (max-width: 968px) {
+  .about-container,
+  .papers-container,
+  .committee-container,
+  .schedule-container,
+  .speakers-container,
+  .contact-container,
+  .venue-container {
+    margin-left: 0;
+    padding: 1rem;
+    margin-right: 0;
+    margin-top: 62px;
   }
 }

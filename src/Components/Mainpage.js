@@ -44,7 +44,7 @@ function Mainpage() {
   </div>
 
         <h1 className="mainTitle-banner-title">
-          20th International Conference on Information Systems Security
+            21st International Conference on Information Systems Security (ICISS 2026)
         </h1>
       </div>
       <div className="scrolling-strip">
