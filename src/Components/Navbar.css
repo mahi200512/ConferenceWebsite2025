@@ -3,7 +3,7 @@
   background: rgba(255, 255, 255, 0.683);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  width: 250px;
+  width: 200px;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -79,7 +79,7 @@
 .navLinks {
   display: block;
   width:fit-content;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   
   color: #1a1a1a;
   text-decoration: none;

@@ -50,7 +50,7 @@ const Venue = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-          Venue
+          
         </h1>
       </div>
       <div className="scrolling-strip">

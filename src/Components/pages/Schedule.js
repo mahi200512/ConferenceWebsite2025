@@ -70,7 +70,7 @@ const Schedule = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-          Paper Submissions
+          
         </h1>
       </div>
       <div className="scrolling-strip">

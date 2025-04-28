@@ -46,7 +46,7 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-items'>
-              <Link to='/About' className='navLinks' onClick={closeMobileMenu}>About</Link>
+              <Link to='/About' className='navLinks' onClick={closeMobileMenu}>Home</Link>
             </li>
             <li className='nav-items'>
               <Link to='/Commitee' className='navLinks' onClick={closeMobileMenu}>Committee</Link>
@@ -58,18 +58,21 @@ function Navbar() {
               <Link to='/Papers' className='navLinks' onClick={closeMobileMenu}>Call for Papers</Link>
             </li>
             <li className='nav-items'>
-              <Link to='/Schedule' className='navLinks' onClick={closeMobileMenu}>Schedule</Link>
+              <Link to='/Commitee' className='navLinks' onClick={closeMobileMenu}>Paper Submissions</Link>
+            </li>
+            <li className='nav-items'>
+              <Link to='/Schedule' className='navLinks' onClick={closeMobileMenu}>Important Dates</Link>
             </li>
             <li className='nav-items'>
               <Link to='/Venue' className='navLinks' onClick={closeMobileMenu}>Venue</Link>
             </li>
             <li className='nav-items'>
+              <Link to='/Commitee' className='navLinks' onClick={closeMobileMenu}>Registrations</Link>
+            </li>
+            <li className='nav-items'>
               <Link to='/ContactUs' className='navLinks' onClick={closeMobileMenu}>Contact Us</Link>
             </li>
           </ul>
-          
-          {/* Only show button if the screen size is large enough and sidebar is not collapsed */}
-          {button && !collapsed && <Button buttonStyle='btn--outline'>Register</Button>}
         </div>
       </nav>
     </>

@@ -45,18 +45,18 @@ const ContactUs = () => {
       >
        
 <div className="logo-left">
-  <Link to="/Mainpage">
+  <Link to="/">
     <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
   </Link>
 </div>
 
 <div className="logo-right">
-  <Link to="/Mainpage">
+  <Link to="/">
     <img src="/images/ICISS_logo-removebg-preview.png" alt="Logo2" className="logo" />
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-          Contact Us
+          
         </h1>
       </div>
       <div className="scrolling-strip">

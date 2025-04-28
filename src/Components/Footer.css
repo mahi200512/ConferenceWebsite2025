@@ -5,8 +5,8 @@
   text-align: center;
   position: relative;
   bottom: 0;
-  width: calc(100% - 250px); /* Adjust for sidebar */
-  margin-left: 250px; /* Push footer content to the right of the sidebar */
+  width: calc(100% - 200px); /* Adjust for sidebar */
+  margin-left: 200px; /* Push footer content to the right of the sidebar */
   box-sizing: border-box;
 }
 

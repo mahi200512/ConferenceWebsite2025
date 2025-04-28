@@ -39,7 +39,7 @@ const Committee = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-          ICISS -2026 Committee
+          
         </h1>
       </div>
       <div className="scrolling-strip">
@@ -54,68 +54,46 @@ const Committee = () => {
           <li><a href="/commitee">📍 Commitee members</a></li>
         </ul>
       </div>
-      <div className="committee-grid">
-        <div className="committee-column">
-          <div className="committee-section">
-            <h2>General Chair</h2>
-            <p>RK Shyamasundar - IIT Bombay</p>
-          </div>
+      <div className='Committees'>
+        <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur</p>
+        <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT NR</p>
+        <p>Dr. Mithilesh K Choube, IIIT Naya Raipur</p>
+        <p>Dr. Rajarshi Mahapatra, IIIT Naya Raipur</p>
+        <h3>General Chair</h3>
+        <p>Dr. Srinivasa K.G. IIIT NR</p>
+        <p>Satyanarayana Vollala, IIIT Naya Raipur</p>
+        <p>Santosh Kumar IIIT Naya Raipur</p>
+        <h3>Organizing Chair</h3>
+        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+        <h3>Organizing Secretary</h3>
+        <p>Dr. Vinay Kumar, IIIT Naya Raipur</p>
+        <h3>Program Chairs</h3>
+        <p>Dr. Debasis Giri, MAKAUT</p>
+        <p>Dr. Sangram Ray, NIT SIKKIM</p>
+        <p>Dr. Sanasam Ranbir Singh, IIT Guwahati</p>
 
-          <div className="committee-section">
-            <h2>Technical Program Chairs</h2>
-            <p>Ram Krishnan - University of Texas at San Antonio</p>
-            <p>Vishwas Patil - IIT Bombay</p>
-          </div>
-
-          <div className="committee-section">
-            <h2>Patron</h2>
-            <p>Rahul Banerjee - LNMIIT Jaipur</p>
-          </div>
-
-          <div className="committee-section">
-            <h2>Organising Chair</h2>
-            <p>Jayaprakash Kar - LNMIIT Jaipur</p>
-          </div>
-
-          <div className="committee-section">
-            <h2>Publicity Chairs</h2>
-            <p>Enrico Bassetti - TU Delft</p>
-            <p>Maurantonio Caprolu - KAUST</p>
-            <p>Preetam Mukherjee - Digital University Kerala</p>
-          </div>
-
-          <div className="committee-section">
-            <h2>Web Chair</h2>
-            <p>Vishwas Patil - IIT Bombay</p>
-          </div>
+        <h3>Publicity Chair</h3>
+        <p>Dr. Shailesh Khapre, IIIT Naya Raipur</p>
+        <p>Dr. Mayukh Sarkar, NIT Jamshedpur</p>
+        <p>Dr. Goutham Alavalapati,  University of Illinois</p>
+        <p>Debasis Das, IIT Jodhpur</p>
+        <p>Dr. Karan Singh, JNU</p>
+        <h3>Publication  Chair</h3>
+        <p>Dr. Shyamalendu Kandar, IIEST Shibpur</p>
+        <p>Dr. Ruhul Amin, IIIT NR</p>
+        <h3>Local Organizing Committee</h3>
+        <p>Punya P. Paltani, IIIT Naya Raipur</p>
+        <h3>Sponsorship Committee</h3>
+        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+        <h3>Website Management Committee</h3>
+        <p>Mr. Abir</p>
+        <p>Mr. Parbinder Singh</p>
+        <h3>Local Organizing Committee</h3>
+        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
         </div>
-
-        <div className="committee-column">
-          <div className="committee-section">
-            <h2>PhD Forum Chairs</h2>
-            <p>Radhika BS - NITK Surathkal</p>
-            <p>Preetam Mukherjee - Digital University Kerala</p>
-          </div>
-
-          <div className="committee-section">
-            <h2>Organising Executive Committee</h2>
-            <p>Venkata Badarla - IIT Tirupati</p>
-            <p>Neminath Hubbali - IIT Indore</p>
-            <p>Chandrashekar Jatoth - NIT Raipur</p>
-            <p>Jayaprakash Kar - LNMIIT Jaipur</p>
-            <p>Vishwas Patil - IIT Bombay</p>
-            <p>Somnath Tripathy - IIT Patna</p>
-          </div>
-
-          <div className="committee-section">
-            <h2>Advisory Steering Committee</h2>
-            <p>Venu Govindaraju - University of Buffalo</p>
-            <p>Sushil Jajodia - George Mason University</p>
-            <p>Somesh Jha - University of Wisconsin</p>
-            <p>Atul Prakash - University of Michigan</p>
-            <p>Pierangela Samarati - University of Milan</p>
-            <p>RK Shyamasundar - IIT Bombay</p>
-          </div>
+        <div className='com2'>
+        <h3>Technical Program Committee</h3><p>------</p>
+        <h3>Advisory Committee</h3><p>------</p>
         </div>
       </div>
     </div>

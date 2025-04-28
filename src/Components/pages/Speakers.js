@@ -108,7 +108,7 @@ const Speakers = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-          ICISS - 2026 Speakers
+          
         </h1>
         
       </div> 

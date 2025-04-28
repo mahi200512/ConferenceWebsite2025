@@ -1,7 +1,7 @@
 /* ------------------ HERO SECTION ------------------ */
 .hero-container {
   position: relative;
-  width: calc(100% - 250px); /* Default layout for large screens */
+  width: calc(100% - 200px); /* Default layout for large screens */
   /* height: 100vh; */
   overflow: hidden;
   display: flex;
@@ -11,7 +11,7 @@
   text-align: center;
   color: white;
   background-color: rgb(255, 255, 255);
-  margin-left: 250px; /* Space for fixed sidebar */
+  margin-left: 200px; /* Space for fixed sidebar */
   
   box-sizing: border-box;
   transition: all 0.4s ease-in-out;
