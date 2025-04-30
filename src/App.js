@@ -11,8 +11,7 @@ import Papers from './Components/pages/Papers';
 import Schedule from './Components/pages/Schedule';
 import Venue from './Components/pages/Venue';
 import Speakers from './Components/pages/Speakers';
-import PaperSubmit from './Components/pages/PaperSubmit'; // ⬅️ Import PaperSubmit
-
+import PaperSubmit from './Components/pages/PaperSubmit'; 
 function App() {
   return (
     <Router>

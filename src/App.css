@@ -1082,7 +1082,12 @@ section.in-view {
     flex-direction: column;
     padding: 20px;
   }
-
+  .speakers-container{
+    width:100%
+  }
+  .committee-container{
+    width:100%
+  }
   .contact-form,
   .contact-info {
     flex: 1 1 100%;
