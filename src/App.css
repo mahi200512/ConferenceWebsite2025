@@ -12,7 +12,7 @@ body {
 /* Banner background */
 .mainTitle-banner-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /* horizontally center children */
   align-items: center;
   position: relative;
   background-size: cover;
@@ -20,30 +20,48 @@ body {
   background-repeat: no-repeat;
   padding: 70px 20px;
   color: white;
-  width: 100%;
-  height: 30vh;
+  width:97.6%;
+  font-size: 10px;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
   transition: background-image 1s ease-out;
+  overflow-x: hidden;
+  height: 20vh;
 }
 
 /* Title Style with Background Overlay */
+
 .mainTitle-banner-title {
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
-  margin-left: 20%;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   position: relative;
-  z-index: 2; /* Ensure title is on top of other elements */
+  z-index: 2;
+  margin: 0; /* prevents unwanted spacing */
 }
 
 
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .mainTitle-banner-title {
+    font-size: 1.8rem; /* slightly smaller on mobile */
+    letter-spacing: 1px; /* reduce letter spacing */
+    padding: 0 10px; /* add some side padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .mainTitle-banner-title {
+    font-size: 1.5rem; /* even smaller for very small screens */
+    letter-spacing: 0.5px;
+  }
+}
 
 /* Scrolling Strip */
 .scrolling-strip {
-  width: 100%;
+  width: 220vw;
   background-color: #002855;
   overflow: hidden;
   height: 30px;
@@ -67,6 +85,39 @@ body {
   font-size: 0.8rem;
   transition: color 0.3s;
 }
+.Authguideline {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.AuthRules {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-position: inside;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.AuthRules li {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.AuthRules a {
+  color: #007bff; /* blue color for link */
+  text-decoration: underline;
+}
+
+.AuthRules a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
 /* Navbar */
 .navbar {
   background-color: #ffffff;
@@ -230,52 +281,42 @@ section.in-view {
   font-weight: bold;
 }
 
-/* Committee Section */
 .committee-container {
-  background: #f0f8ff;
+  width: calc(100%-200px);
   margin-left: 200px;
-  
+  /* margin-top: 0;
+  background-color: #ffffff;
   border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
   transition: margin-left 0.3s ease;
-}
+  animation: fadeIn 1s forwards;
+*/}
 .Committees{
   display: flex;
-}
-.com1{
-  width:50%;
   text-align: center;
 }
+.com1{
+  width:50%
+}
 .com1 p{
-  line-height: 2px;
   font-family: 'Times New Roman', Times, serif;
 }
 .com2 p{
-  line-height: 2px;
   font-family: 'Times New Roman', Times, serif;
 }
 .com2{
-  width:50%;
+  width:50%
 }
-.committee-title {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #03045e;
-  font-weight: bold;
-}
-/* 
-.committee-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+@media (max-width: 600px) {
+  .Committees{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.committee-section {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-} */
+
 
 .committee-section:hover {
   transform: translateY(-5px);
@@ -352,10 +393,16 @@ section.in-view {
 
 /* Speakers Section */
 .speakers-container {
+  margin-left: 200px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  transition: margin-left 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgba(0, 0, 0, 0.096);
+  width:calc(100%-300px);
+  margin-top: 0;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
 }
 
 .speakers-intro {
@@ -419,10 +466,6 @@ section.in-view {
   font-size: 14px;
   color: #666;
 }
-
-
-
-
 .speaker-summary {
   display: flex;
   align-items: center;
@@ -524,7 +567,8 @@ section.in-view {
   .schedule-container,
   .speakers-container,
   .contact-container,
-  .venue-container {
+  .venue-container
+  .paper-submissions-container {
     margin-left: 0;
     padding: 1rem;
   }
@@ -567,11 +611,9 @@ section.in-view {
   .speakers-carrd {
     grid-template-columns: repeat(2, 1fr);
   }
-  .about-banner-title,
-  .schedule-container h1,
-  .contact-container h1,
-  .venue-container h1 {
-    font-size: clamp(1.25rem, 4vw + 1rem, 2rem);
+  
+  .mainTitle-banner-title{
+
   }
 }
 
@@ -597,7 +639,8 @@ section.in-view {
   .schedule-container,
   .speakers-container,
   .contact-container,
-  .venue-container {
+  .venue-container
+  .paper-submissions-container {
     margin-left: 0;
     padding: 1rem;
     margin-right: 0;
@@ -710,4 +753,339 @@ section.in-view {
 }
 .call-for-papers h2{
   color: rgb(222, 43, 43);
+}
+
+.logo-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 60px; /* Adjust height as you need */
+  width: auto;
+}
+/* Logo Positioning */
+.logo-left,
+.logo-right {
+  position: absolute;
+  /* top: 20px; */
+  z-index: 100;
+}
+
+.logo-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: auto;
+  height: 50px;
+}
+.scrolling-strip {
+  width: 100%;
+  overflow: hidden;
+  height: 20px;
+  background-color: #002855; /* Light background */
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.scrolling-list li a:hover {
+  color: #00ffff;
+}
+.scrolling-list {
+  display: flex;
+  width: fit-content;
+  animation: scrollLeft 20s linear infinite;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scrolling-list li {
+  margin-right: 50px; /* space between items */
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.scrolling-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.important-dates-section {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.important-dates-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.important-dates-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+.important-dates-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.event-name {
+  font-weight: 600;
+  color: #34495e;
+  text-align: left;
+}
+
+.event-date {
+  color: #7f8c8d;
+  text-align: right;
+}
+/* Mobile and small tablets */
+@media (max-width: 768px) {
+  /* .mainTitle-banner-title {
+    font-size: 2rem;
+    margin-top: 8vh;
+  } */
+
+  .important-dates-title {
+    font-size: 2rem;
+  }
+
+  .important-dates-section {
+    padding: 2rem 1rem;
+    width: 95%;
+  }
+
+  .important-dates-table td {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  /* .mainTitle-banner-title {
+    font-size: 1.8rem;
+    margin-top: 6vh;
+  } */
+
+  .important-dates-title {
+    font-size: 1.8rem;
+  }
+
+  .important-dates-table td {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+}
+/* }
+.paper-submissions-container {
+  max-width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'PT Sans', sans-serif;
+  color: #333;
+}
+
+.paper-submissions-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #002855;
+  text-align: center;
+}
+
+.paper-submissions-container ol {
+  margin-left: 1.5rem;
+}
+
+.paper-submissions-container li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.paper-submissions-container a {
+  color: #0077b6;
+  text-decoration: underline;
+} */
+.paper-submissions-container {
+  margin-left: 200px;
+  width:calc(100% - 200px );
+  
+}
+@media (max-width:968px) {
+
+.paper-submissions-container {
+  margin-left: 0px;
+  width:100% ;
+  margin-top: 75px;
+}
+}
+.Authguideline {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+  font-family: 'Poppins', 'Arial', sans-serif;
+  animation: fadeIn 1s ease forwards;
+}
+
+.AuthRules {
+  list-style-position: inside;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 20px; /* Some side padding for small screens */
+  max-width: 900px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555555;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+.AuthRules li {
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+}
+
+.AuthRules li:hover {
+  background-color: #f9f9f9;
+  padding-left: 10px;
+  border-left: 4px solid #4CAF50;
+}
+
+/* FadeIn Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive behavior for mobile devices */
+@media (max-width: 768px) {
+  .Authguideline {
+    font-size: 1.5rem; /* Slightly smaller heading on phones */
+    margin-top: 20px;
+  }
+
+  .AuthRules {
+    font-size: 1rem;
+    padding: 0 15px; /* Reduce padding slightly */
+    line-height: 1.6;
+  }
+
+  .AuthRules li {
+    margin-bottom: 12px;
+  }
+}
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.contact-form,
+.contact-info {
+  flex: 1 1 45%;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info h2 {
+  font-size: 1.8rem;
+  color: #007BFF;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444444;
+}
+
+/* Thank you message */
+.thank-you-message {
+  text-align: center;
+}
+
+.thank-you-message h2 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-form,
+  .contact-info {
+    flex: 1 1 100%;
+    padding: 20px;
+  }
 }

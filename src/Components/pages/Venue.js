@@ -46,7 +46,7 @@ const Venue = () => {
 
 <div className="logo-right">
   <Link to="/">
-    <img src="/images/ICISS_logo-removebg-preview.png" alt="Logo2" className="logo" />
+    <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
@@ -55,14 +55,11 @@ const Venue = () => {
       </div>
       <div className="scrolling-strip">
         <ul className="scrolling-list">
-          <li><a href="/Schedule">📅 Conference Schedule</a></li>
+        <li><a href="/Schedule">📅 Conference Schedule</a></li>
           <li><a href="/news">📰 Latest News</a></li>
-          <li><a href="/proceedings">📘 Online Proceedings</a></li>
           <li><a href="/venue">📍 Venue Details</a></li>
           <li><a href="/footer">📍 Quick Link</a></li>
-          <li><a href="/query">📍 Queries</a></li>
           <li><a href="/FAQs">📍 Frequently asked questions</a></li>
-          <li><a href="/commitee">📍 Commitee members</a></li>
         </ul>
       </div>
       <p>Join us for the 3-day conference at IIIT Naya Raipur.</p>

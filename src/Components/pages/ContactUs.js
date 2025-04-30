@@ -52,7 +52,7 @@ const ContactUs = () => {
 
 <div className="logo-right">
   <Link to="/">
-    <img src="/images/ICISS_logo-removebg-preview.png" alt="Logo2" className="logo" />
+    <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
@@ -61,71 +61,70 @@ const ContactUs = () => {
       </div>
       <div className="scrolling-strip">
         <ul className="scrolling-list">
-          <li><a href="/Schedule">📅 Conference Schedule</a></li>
+        <li><a href="/Schedule">📅 Conference Schedule</a></li>
           <li><a href="/news">📰 Latest News</a></li>
-          <li><a href="/proceedings">📘 Online Proceedings</a></li>
           <li><a href="/venue">📍 Venue Details</a></li>
           <li><a href="/footer">📍 Quick Link</a></li>
-          <li><a href="/query">📍 Queries</a></li>
           <li><a href="/FAQs">📍 Frequently asked questions</a></li>
-          <li><a href="/commitee">📍 Commitee members</a></li>
         </ul>
       </div>
       <p>Have questions? Get in touch with us.</p>
-
       <div className="contact-content">
-        {/* Contact Form */}
-        <div className="contact-form">
-          {!submitted ? (
-            <form onSubmit={handleSubmit}>
-              <label>Name</label>
-              <input
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-              />
+  {/* Contact Form */}
+  <div className="contact-form">
+    {!submitted ? (
+      <form onSubmit={handleSubmit}>
+        <label>Name</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
 
-              <label>Email</label>
-              <input
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
 
-              <label>Message</label>
-              <textarea
-                name="message"
-                placeholder="Type your message..."
-                value={formData.message}
-                onChange={handleChange}
-                required
-              ></textarea>
+        <label>Message</label>
+        <textarea
+          name="message"
+          placeholder="Type your message..."
+          value={formData.message}
+          onChange={handleChange}
+          required
+        ></textarea>
 
-              <button type="submit">Send Message</button>
-            </form>
-          ) : (
-            <div className="thank-you-message">
-              <h2>Thank you!</h2>
-              <p>We've received your message and will get back to you soon.</p>
-            </div>
-          )}
-        </div>
-
-        {/* Contact Info */}
-        <div className="contact-info">
-          <h2>Reach Us</h2>
-          <p><strong>Email:</strong> contact@conference.com</p>
-          <p><strong>Phone:</strong> +91 98765 43210</p>
-          <p><strong>Address:</strong> IIIT Naya Raipur, India</p>
-        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    ) : (
+      <div className="thank-you-message">
+        <h2>Thank you!</h2>
+        <p>We've received your message and will get back to you soon.</p>
       </div>
-    </div>
+    )}
+  </div>
+
+  {/* Contact Info */}
+  <div className="contact-info">
+    <h2>Contact Us</h2>
+    <p><strong>Department:</strong><br/> Computer Science and Engineering,<br/> DR SPM IIIT Naya Raipur</p>
+    <p><strong>Address:</strong><br/> Sector 24, Plot No:7, Near Muktangan,<br/> Chhattisgarh, Pin-493661, India</p>
+    <p><strong>General Queries:</strong><br/> iciss@iiitnr.edu.in</p>
+    <p><strong>Conference Email:</strong><br/> iciss2026@iiitnr.edu.in</p>
+    <p><strong>Dr. Ruhul Amin:</strong><br/> +91 88041 52340</p>
+    <p><strong>Dr. Vinay Kumar:</strong><br/> +91 94546 90527</p>
+  </div>
+</div>
+</div>
   );
 };
 

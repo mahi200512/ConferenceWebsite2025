@@ -23,10 +23,10 @@
 }
 .MainLogo {
   filter: none;
-}.mainTitle-banner-section {
+}
+.mainTitle-banner-section {
   display: flex;
   justify-content: center;  /* horizontally center children */
-  
   align-items: center;
   position: relative;
   background-size: cover;
@@ -51,15 +51,7 @@
   height: auto; /* Maintain aspect ratio */
 }
 
-.logo-left {
-  left: 30px;
-  height:10px;
-  width: 10px;
-}
 
-.logo-right {
-  right: 40px;
-}
 
 .mainTitle-banner-title {
   color: #ffffff;
@@ -263,10 +255,18 @@
     max-width: 300px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 550px) {
   .hero-container {
-    width: 100vw; /* Full screen width */
-    /* height:20%; Full screen height */
-    margin-left: 0; /* Ensure no extra spacing */ /* Adjust for navbar */
+    width:100%;
+    padding: 0;/* Ensure no extra spacing */ /* Adjust for navbar */
+    margin-left: 0;
+  }
+  .mainTitle-banner-section{
+    margin-left: 0;
+  }
+  .scrolling-strip{
+    margin-left: 0;
+    margin-right: 0;
+    width: 102vw;
   }
 }
