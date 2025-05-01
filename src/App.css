@@ -306,6 +306,12 @@ section.in-view {
 .com2 p{
   font-family: 'Times New Roman', Times, serif;
 }
+.com1 h3{
+  color: #1abc9c;;
+}
+.com2 h3{
+  color: #1abc9c;;
+}
 .com2{
   width:50%
 }
@@ -501,6 +507,19 @@ section.in-view {
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
   animation: fadeIn 1s forwards;
+}
+.Git {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00aaff;
+  margin: 30px 0 15px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 600px) {
+  .Git {
+    font-size: 16px;
+  }
 }
 
 .contact-container h1 {

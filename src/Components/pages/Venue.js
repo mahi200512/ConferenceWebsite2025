@@ -1,34 +1,25 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
-const mapStyles = {
-  height: '400px',
-  width: '100%',
-};
 
-// Coordinates of IIIT Naya Raipur
-const defaultCenter = {
-  lat: 21.2107,
-  lng: 81.6751,
-};
 const bannerImages = [
   '/images/IIITNRRR.png',
   '/images/IIITNRTTopView.png',
   '/images/IIITNRFrontDroneView.png',
   '/images/IIITNRNightImage.jpeg'
 ];
+
 const Venue = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentImage((prev) => (prev + 1) % bannerImages.length);
-      }, 5000); // Change every 5 seconds
-  
-      return () => clearInterval(interval);
-    }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % bannerImages.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="venue-container">
       <div
@@ -37,32 +28,30 @@ const Venue = () => {
           backgroundImage: `url(${bannerImages[currentImage]})`
         }}
       >
+        <div className="logo-left">
+          <Link to="/">
+            <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
+          </Link>
+        </div>
 
-<div className="logo-left">
-  <Link to="/">
-    <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
-  </Link>
-</div>
-
-<div className="logo-right">
-  <Link to="/">
-    <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
-  </Link>
-</div>
-        <h1 className="mainTitle-banner-title">
-          
-        </h1>
+        <div className="logo-right">
+          <Link to="/">
+            <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
+          </Link>
+        </div>
       </div>
+
       <div className="scrolling-strip">
         <ul className="scrolling-list">
-        <li><a href="/Schedule">📅 Conference Schedule</a></li>
+          <li><a href="/Schedule">📅 Conference Schedule</a></li>
           <li><a href="/news">📰 Latest News</a></li>
           <li><a href="/venue">📍 Venue Details</a></li>
           <li><a href="/footer">📍 Quick Link</a></li>
           <li><a href="/FAQs">📍 Frequently asked questions</a></li>
         </ul>
       </div>
-      <p>Join us for the 3-day conference at IIIT Naya Raipur.</p>
+
+      <p className="venue-intro">Join us for the 3-day conference at IIIT Naya Raipur.</p>
 
       <div className="venue-info">
         <h2>📍 Location Details</h2>
@@ -72,21 +61,26 @@ const Venue = () => {
         <p><strong>Email:</strong> contact@conference.com</p>
       </div>
 
-      {/* Google Map Section */}
+      {/* Static Google Maps Embed */}
       <div className="map-container">
-        <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
-          <GoogleMap mapContainerStyle={mapStyles} zoom={15} center={defaultCenter}>
-            <Marker position={defaultCenter} />
-          </GoogleMap>
-        </LoadScript>
+        <iframe
+          title="IIIT Naya Raipur Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119054.83821294046!2d81.60329530889498!3d21.20745704588245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2921c8c961f6c3%3A0xd5ed0e94b17a3cf0!2sIIIT%20Naya%20Raipur!5e0!3m2!1sen!2sin!4v1714568479215"
+          width="100%"
+          height="400"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
-      
+
       <div className="directions">
         <h2>🛣 Get Directions</h2>
         <p>Click below to get directions on Google Maps:</p>
-        <a 
-          href="https://www.google.com/maps?q=IIIT+Naya+Raipur" 
-          target="_blank" 
+        <a
+          href="https://www.google.com/maps?q=IIIT+Naya+Raipur"
+          target="_blank"
           rel="noopener noreferrer"
           className="directions-button"
         >
