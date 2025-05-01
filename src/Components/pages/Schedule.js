@@ -61,6 +61,7 @@ const Schedule = () => {
         </ul>
       </div>
       
+      <h2 className="committee-heading">Important Dates</h2>
       
       {/* Important Dates List */}
       <div className="important-dates-section" id="important-dates">

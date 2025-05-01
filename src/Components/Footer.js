@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Quick Links</h3>
           <p><Link to="/papers">Call for Papers</Link></p>
-          <p><Link to="/commitee">Committee</Link></p>
-          <p><Link to="/Speakers">Speakers</Link></p>
-          <p><Link to="/PaperSubmit">Paper Submission</Link></p>
-          <p><Link to="/Registrations">Registration</Link></p>
+          <p><Link to="/committee">Committee</Link></p>
+          <p><Link to="/speakers">Speakers</Link></p>
+          <p><Link to="/papersubmission">Paper Submission</Link></p>
+          <p><Link to="/registrations">Registration</Link></p>
           <p><Link to="/venue">Venue</Link></p>
           <p><Link to="/schedule">Submission Deadline</Link></p>
         </div>
@@ -22,15 +22,19 @@ const Footer = () => {
           <h3>Important Dates</h3>
           <p>Acceptance Notification: 30 July 2025</p>
           <p>Camera Ready Due: 15 August 2025</p>
-          <p>Conference Dates: 20-22 September 2025</p>
+          <p>Conference Dates: 20–22 September 2025</p>
         </div>
 
         <div className="footer-section">
-          <h3>Announcements</h3>
-          <p>LNNS Springer Indexed Publication Confirmed</p>
-          <p>Workshops to be held on Day 1</p>
-          <p>Limited accommodation available on campus</p>
-          <p><Link to="/news">Click for Latest Updates</Link></p>
+          <h3>Contact Person</h3>
+          <p>Dr. Ruhul Amin<br/>+91 88041 52340</p>
+          <p>Dr. Vinay Kumar<br/>+91 94546 90527</p>
+          <a href="mailto:iciss2026@iiitnr.edu.in"><p><Link to="/contact">Email: iciss2026@iiitnr.edu.in</Link></p></a>
+        </div>
+
+        <div className="footer-section">
+          <h3>Latest News</h3>
+          <p>To be updated soon…</p>
         </div>
 
       </div>

@@ -51,14 +51,14 @@ const Venue = () => {
         </ul>
       </div>
 
-      <p className="venue-intro">Join us for the 3-day conference at IIIT Naya Raipur.</p>
+      <p className="venue-intro">Join us for ICISS 2026 at IIIT Naya Raipur.</p>
 
       <div className="venue-info">
         <h2>📍 Location Details</h2>
         <p><strong>Venue:</strong> International Institute of Information Technology (IIIT), Naya Raipur</p>
         <p><strong>Address:</strong> Plot No. 7, Sector 24, Naya Raipur, Chhattisgarh, India</p>
-        <p><strong>Phone:</strong> +91 98765 43210</p>
-        <p><strong>Email:</strong> contact@conference.com</p>
+        <p><strong>Phone:</strong> +91 88041 52340</p>
+        <p><strong>Email:</strong> iciss@iiitnr.edu.in</p>
       </div>
 
       {/* Static Google Maps Embed */}

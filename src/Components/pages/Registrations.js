@@ -56,7 +56,7 @@ const Registrations = () => {
       <p className="registration-text">
         Participants are required to pay the registration fee directly to the designated bank account. 
         After payment, participants must email the completed conference registration form along with 
-        the payment proof to <a href="mailto:ruhul@iiitnr.edu.in">ruhul@iiitnr.edu.in</a> on or before <strong>(Date)</strong>. 
+        the payment proof to <a href="mailto:iciss2026@iiitnr.edu.in">iciss2026@iiitnr.edu.in</a> on or before <strong>(5th November, 2025)</strong>. 
         The registration form and payment details are provided below.
       </p>
 
