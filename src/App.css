@@ -1097,9 +1097,7 @@ section.in-view {
   }
 }
 .registration-container {
-  padding: 2rem;
-  font-family: 'Poppins', sans-serif;
-  background-color: #f9f9f9;
+  
 }
 
 .registration-title {
@@ -1251,7 +1249,6 @@ section.in-view {
 .registration-container {
   padding:0;
   margin-left: 200px;
-  
   font-family: 'Poppins', sans-serif;
   background-color: #f9f9f9;
 }
@@ -1331,9 +1328,10 @@ section.in-view {
 }
 
 /* ✅ Responsive Styles for Phones */
-@media (max-width: 768px) {
+@media (max-width: 955px) {
   .registration-container {
-    padding: 1rem;
+    width:100%;
+    margin-left:0
   }
 
   .registration-title {
