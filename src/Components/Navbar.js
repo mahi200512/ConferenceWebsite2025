@@ -64,7 +64,7 @@ function Navbar() {
               <Link to='/Schedule' className='navLinks' onClick={closeMobileMenu}>Important Dates</Link>
             </li>
             <li className='nav-items'>
-              <Link to='/Commitee' className='navLinks' onClick={closeMobileMenu}>Registrations</Link>
+              <Link to='/Registrations' className='navLinks' onClick={closeMobileMenu}>Registrations</Link>
             </li>
             <li className='nav-items'>
               <Link to='/Venue' className='navLinks' onClick={closeMobileMenu}>Venue</Link>

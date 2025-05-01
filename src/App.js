@@ -12,6 +12,7 @@ import Schedule from './Components/pages/Schedule';
 import Venue from './Components/pages/Venue';
 import Speakers from './Components/pages/Speakers';
 import PaperSubmit from './Components/pages/PaperSubmit'; 
+import Registrations from './Components/pages/Registrations';
 function App() {
   return (
     <Router>
@@ -25,6 +26,7 @@ function App() {
         <Route path='/PaperSubmit' element={<PaperSubmit />} />
         <Route path='/Schedule' element={<Schedule />} /> {/* Removed space */}
         <Route path='/Venue' element={<Venue />} />
+        <Route path='/Registrations' element={<Registrations/>} />
         <Route path='/Speakers' element={<Speakers />} />
       </Routes>
       <Footer />

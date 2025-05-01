@@ -562,6 +562,7 @@ section.in-view {
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
   .about-container,
+  .registration-container,
   .papers-container,
   .committee-container,
   .schedule-container,
@@ -633,6 +634,7 @@ section.in-view {
   }
 }
 @media (max-width: 968px) {
+  .registration-container,
   .about-container,
   .papers-container,
   .committee-container,
@@ -1092,5 +1094,276 @@ section.in-view {
   .contact-info {
     flex: 1 1 100%;
     padding: 20px;
+  }
+}
+.registration-container {
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.registration-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.registration-subtitle {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+.registration-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.registration-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.registration-table th,
+.registration-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.registration-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.registration-list {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.printable-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.printable-link a {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.printable-link a:hover {
+  background-color: #1f6391;
+}
+.registration-container {
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.registration-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.registration-subtitle {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+.registration-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.table-container {
+  overflow-x: auto; /* Scroll table horizontally on phone */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.registration-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  min-width: 600px; /* Make table wide enough for better scrolling */
+}
+
+.registration-table th,
+.registration-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.registration-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.registration-list {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.printable-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.printable-link a {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.printable-link a:hover {
+  background-color: #1f6391;
+}
+
+.registration-container {
+  padding:0;
+  margin-left: 200px;
+  
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.registration-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.registration-subtitle {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 10px;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+.registration-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-left: 20px;
+}
+
+.table-container {
+  overflow-x: auto; /* Scroll table horizontally on phone */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding:20px
+}
+
+.registration-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  min-width: 600px; /* Make table wide enough for better scrolling */
+}
+
+.registration-table th,
+.registration-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.registration-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.registration-list {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.printable-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.printable-link a {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.printable-link a:hover {
+  background-color: #1f6391;
+}
+
+/* ✅ Responsive Styles for Phones */
+@media (max-width: 768px) {
+  .registration-container {
+    padding: 1rem;
+  }
+
+  .registration-title {
+    font-size: 1.5rem;
+  }
+
+  .registration-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .registration-text {
+    font-size: 0.95rem;
+  }
+
+  .registration-list {
+    margin-left: 1.2rem;
+  }
+
+  .registration-table {
+    min-width: 100%; /* Let table fit mobile width */
+    font-size: 0.9rem;
+  }
+
+  .registration-table th,
+  .registration-table td {
+    padding: 10px 8px;
+  }
+
+  .printable-link a {
+    padding: 8px 16px;
+    font-size: 0.95rem;
   }
 }
