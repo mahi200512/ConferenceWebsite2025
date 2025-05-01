@@ -53,11 +53,11 @@ const Committee = () => {
       </div>
       <div className='Committees'>
         <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur</p>
-        <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT NR</p>
+        <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT Naya Raipur</p>
         <p>Dr. Mithilesh K Choube, IIIT Naya Raipur</p>
         <p>Dr. Rajarshi Mahapatra, IIIT Naya Raipur</p>
         <h3>General Chair</h3>
-        <p>Dr. Srinivasa K.G. IIIT NR</p>
+        <p>Dr. Srinivasa K.G. IIIT Naya Raipur</p>
         <p>Satyanarayana Vollala, IIIT Naya Raipur</p>
         <p>Santosh Kumar IIIT Naya Raipur</p>
         <h3>Organizing Chair</h3>
@@ -66,7 +66,7 @@ const Committee = () => {
         <p>Dr. Vinay Kumar, IIIT Naya Raipur</p>
         <h3>Program Chairs</h3>
         <p>Dr. Debasis Giri, MAKAUT</p>
-        <p>Dr. Sangram Ray, NIT SIKKIM</p>
+        <p>Dr. Sangram Ray, NIT Sikkim</p>
         <p>Dr. Sanasam Ranbir Singh, IIT Guwahati</p>
 
         <h3>Publicity Chair</h3>
@@ -77,7 +77,7 @@ const Committee = () => {
         <p>Dr. Karan Singh, JNU</p>
         <h3>Publication  Chair</h3>
         <p>Dr. Shyamalendu Kandar, IIEST Shibpur</p>
-        <p>Dr. Ruhul Amin, IIIT NR</p>
+        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
         <h3>Local Organizing Committee</h3>
         <p>Punya P. Paltani, IIIT Naya Raipur</p>
         <h3>Sponsorship Committee</h3>
@@ -87,6 +87,20 @@ const Committee = () => {
         <p>Mr. Parbinder Singh</p>
         <h3>Local Organizing Committee</h3>
         <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+          <p>Punya P. Paltani, IIIT Naya Raipur</p>
+          <p>Shrivishal Tripathi, IIIT Naya Raipur</p>
+          <p>Sresha Yadav, IIIT Naya Raipur</p>
+          <p>Manoj Kumar Majumder, IIIT Naya Raipur</p>
+          <p>Maifuz Ali, IIIT Naya Raipur</p>
+          <p>Amit Kumar Agrawal, IIIT Naya Raipur</p>
+          <p>Anurag Singh, IIIT Naya Raipur</p>
+          <p>Ramakrishna Bandi, IIIT Naya Raipur</p>
+          <p>Shailesh Khapre, IIIT Naya Raipur</p>
+          <p>Vijaya J, IIIT Naya Raipur</p>
+          <p>Lakhindar Murmu, IIIT Naya Raipur</p>
+          <p>Deepika Gupta, IIIT Naya Raipur</p>
+          <p>Avantika Singh, IIIT Naya Raipur</p>
+          <p>Abhishek Sharma, IIIT Naya Raipur</p>
         </div>
         <div className='com2'>
         <h3>Technical Program Committee</h3><p>------</p>

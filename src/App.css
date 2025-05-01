@@ -794,7 +794,7 @@ section.in-view {
 .logo-right {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 40px;
   width: auto;
   height: 50px;
 }
