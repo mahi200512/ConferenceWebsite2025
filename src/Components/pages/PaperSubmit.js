@@ -63,6 +63,10 @@ const PaperSubmit = () => {
         <li>The authors of accepted papers will have an opportunity to make corrections based on the suggestions of the reviewers. They must submit the final camera-ready versions of their papers within the specified deadline.</li>
         <li>Kindly note that the permissible page length for manuscript submissions is limited to 12 pages. In the event of exceeding this limit, an additional charge of INR 500 per page or $10 per page will apply. The maximum page count with the surcharge is set at 15 pages.</li>
         <li>Follow the authors instructions in the Information for Authors of Springer Proceedings. Relevant Word and LaTeX templates can be found from <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.</li>
+        <li>Click here for Paper format (.Doc and Latex) file <a href="https://drive.google.com/drive/folders/1KGhe9T_0NyeyQ6r7AtDTw6T6w7p0Y-N8?usp=drive_link">here</a>.</li>
+
+
+        
       </ol>
     </div>
   );
