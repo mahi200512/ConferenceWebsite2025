@@ -41,14 +41,18 @@ const About = () => {
         <h1 className="mainTitle-banner-title">
         2nd International Conference on Information Systems and Security (ICISS 2026)
         </h1>
-      </div>
+              
+           </div>
+
+           
       <div className="scrolling-strip">
         <ul className="scrolling-list">
+        <li><a href="/Schedule">📅 Conference Date: 14-16 January, 2026</a></li>
+        <li><a href="/Schedule">📅 Deadline:30th June, 2025</a></li>
         <li><a href="/Schedule">📅 Conference Schedule</a></li>
           <li><a href="/news">📰 Latest News</a></li>
           <li><a href="/venue">📍 Venue Details</a></li>
-          <li><a href="/footer">📍 Quick Link</a></li>
-          <li><a href="/FAQs">📍 Frequently asked questions</a></li>
+          <li><a href="/footer">📍 Quick Link</a></li>        
         </ul>
       </div>
       <h1 className='MainHeading'>International Conference on Intelligent Systems and Security (ICISS 2026)</h1>
