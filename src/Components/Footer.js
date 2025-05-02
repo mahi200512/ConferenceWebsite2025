@@ -20,9 +20,11 @@ const Footer = () => {
 
         <div className="footer-section">
           <h3>Important Dates</h3>
-          <p>Acceptance Notification: 30 July 2025</p>
-          <p>Camera Ready Due: 15 August 2025</p>
-          <p>Conference Dates: 20–22 September 2025</p>
+          <p>Paper Submission Deadline: 30 June 2025</p>
+          <p>Acceptance Notification: 1st October 2025</p>
+          <p>Camera Ready Due: 25th October 2025</p>
+          <p>Registration Deadline: 5th November 2025</p>
+          <p>Conference Dates: 14-16 January 2026</p>
         </div>
 
         <div className="footer-section">

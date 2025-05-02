@@ -51,7 +51,7 @@ const Committee = () => {
           <li><a href="/FAQs">📍 Frequently asked questions</a></li>
         </ul>
       </div>
-      <h2 className="committee-heading">Our Committee</h2>
+      <h2 className="committee-heading"> Committee</h2>
       <div className='Committees'>
       
         <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur</p>
@@ -76,18 +76,21 @@ const Committee = () => {
         <p>Dr. Shailesh Khapre, IIIT Naya Raipur</p>
         <p>Dr. Mayukh Sarkar, NIT Jamshedpur</p>
         <p>Dr. Goutham Alavalapati,  University of Illinois</p>
-        <p>Debasis Das, IIT Jodhpur</p>
+        <p>Dr. Debasis Das, IIT Jodhpur</p>
         <p>Dr. Karan Singh, JNU</p>
+        <p>Dr. Arijit Karati, NSYU</p>
         <h3>Publication  Chair</h3>
         <p>Dr. Shyamalendu Kandar, IIEST Shibpur</p>
         <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
-        <h3>Local Organizing Committee</h3>
-        <p>Punya P. Paltani, IIIT Naya Raipur</p>
+       
         <h3>Sponsorship Committee</h3>
         <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
         <h3>Website Management Committee</h3>
-        <p>Mr. Abir</p>
-        <p>Mr. Parbinder Singh</p>
+        <p>Mr. Abir Bhattacharya, IIIT Naya Raipur</p>
+        <p>Mr. Parvinder Singh, IIIT Naya Raipur</p>
+        <p>Ms. Thakur Mahima Nuruti, IIIT Naya Raipur</p>
+        <p>Mr. Anshumaan Karna, IIIT Naya Raipur</p>
+        
         <h3>Local Organizing Committee</h3>
         <p>Dr. Punya P. Paltani, IIIT Naya Raipur</p>
 <p>Dr. Shrivishal Tripathi, IIIT Naya Raipur</p>
@@ -107,7 +110,7 @@ const Committee = () => {
         <p>Dr. Abhisekh Das, Alia University, India</p>
   <p>Dr. Alekha Kumar Mishra, NIT Jamshedpur, India</p>
   <p>Dr. Alavalapati Goutham Reddy, University of Illinois, USA</p>
-  <p>Dr. Alawi A. Al-saggaf, King Fahd University of Petroleum and Minerals, Saudi Arabia</p>
+  <p>Dr. Alawi A. Al-saggaf, KFUPM, Saudi Arabia</p>
   <p>Dr. Bimal Kumar Meher, Silicon University, India</p>
   <p>Dr. Cheng-Chi Lee, Fu Jen Catholic University, Taiwan</p>
   <p>Dr. Chien-Ming Chen, Shandong University of Science and Technology, China</p>
@@ -143,7 +146,11 @@ const Committee = () => {
   <p>Dr. Tanmoy Maitra, KIIT Bhubaneshwar, India</p>
   <p>Dr. Venkanna U, NIT Warangal, India</p>
   <p>Dr. Venkatasamy Sureshkumar, PSG College of Technology, India</p>
-        <h3>Advisory Committee</h3><p>------</p>
+        <h3>Advisory Committee</h3>
+        <p>Dr. D. A. Khan, NIT Jamshedpur, India</p>
+        <p>Dr. Kim-Kwang Raymond Choo, University of Texas, USA</p>
+        <p>Debiao He, Wuhan University, China</p>
+        
         </div>
       </div>
     </div>

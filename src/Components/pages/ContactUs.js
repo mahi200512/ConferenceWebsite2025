@@ -125,10 +125,10 @@ const ContactUs = () => {
             Chhattisgarh, Pin-493661, India</p>
 
           <p><strong>General Queries:</strong><br />
-            <a href="mailto:iciss@iiitnr.edu.in">iciss@iiitnr.edu.in</a></p>
+            <a href="mailto:iciss@iiitnr.edu.in">iciss2026@iiitnr.ac.in</a></p>
 
           <p><strong>Conference Email:</strong><br />
-            <a href="mailto:iciss2026@iiitnr.edu.in">iciss2026@iiitnr.edu.in</a></p>
+            <a href="mailto:iciss2026@iiitnr.edu.in">iciss2026@iiitnr.ac.in</a></p>
 
           <p><strong>Dr. Ruhul Amin:</strong><br />
             +91 88041 52340</p>
