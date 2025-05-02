@@ -70,6 +70,7 @@ const Committee = () => {
         <p>Dr. Debasis Giri, MAKAUT</p>
         <p>Dr. Sangram Ray, NIT Sikkim</p>
         <p>Dr. Sanasam Ranbir Singh, IIT Guwahati</p>
+        <p>Dr. Arup Kumar Pal, IIT(ISM) Dhanbad</p>
 
         <h3>Publicity Chair</h3>
         <p>Dr. Shailesh Khapre, IIIT Naya Raipur</p>
