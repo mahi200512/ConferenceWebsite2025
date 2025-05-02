@@ -88,8 +88,7 @@ const Committee = () => {
         <p>Mr. Abir</p>
         <p>Mr. Parbinder Singh</p>
         <h3>Local Organizing Committee</h3>
-        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
-<p>Dr. Punya P. Paltani, IIIT Naya Raipur</p>
+        <p>Dr. Punya P. Paltani, IIIT Naya Raipur</p>
 <p>Dr. Shrivishal Tripathi, IIIT Naya Raipur</p>
 <p>Dr. Sresha Yadav, IIIT Naya Raipur</p>
 <p>Dr. Manoj Kumar Majumder, IIIT Naya Raipur</p>
