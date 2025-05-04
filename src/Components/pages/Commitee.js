@@ -39,7 +39,7 @@ const Committee = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-                2nd International Conference on Information Systems and Security (ICISS 2026)
+                Second International Conference on Information Systems and Security (ICISS 2026)
         </h1>
         
       </div>
@@ -62,19 +62,24 @@ const Committee = () => {
         <p>Dr. Mithilesh K Choube, IIIT Naya Raipur</p>
         <p>Dr. Rajarshi Mahapatra, IIIT Naya Raipur</p>
         <h3>General Chair</h3>
-        <p>Dr. Srinivasa K.G. IIIT Naya Raipur</p>
         <p>Dr.Satyanarayana Vollala, IIIT Naya Raipur</p>
         <p>Dr. Santosh Kumar IIIT Naya Raipur</p>
-        <h3>Organizing Chair</h3>
-        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
-        <h3>Organizing Secretary</h3>
-        <p>Dr. Vinay Kumar, IIIT Naya Raipur</p>
-        <h3>Program Chairs</h3>
+
+        <h3>Program Chair(s)</h3>
         <p>Dr. Debasis Giri, MAKAUT</p>
         <p>Dr. Sangram Ray, NIT Sikkim</p>
         <p>Dr. Sanasam Ranbir Singh, IIT Guwahati</p>
         <p>Dr. Arup Kumar Pal, IIT(ISM) Dhanbad</p>
 
+        <h3>Publication  Chair</h3>
+        <p>Dr. Shyamalendu Kandar, IIEST Shibpur</p>
+        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+
+        <h3>Organizing Chair</h3>
+        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+        <h3>Organizing Secretary</h3>
+        <p>Dr. Vinay Kumar, IIIT Naya Raipur</p>
+        
         <h3>Publicity Chair</h3>
         <p>Dr. Shailesh Khapre, IIIT Naya Raipur</p>
         <p>Dr. Mayukh Sarkar, NIT Jamshedpur</p>
@@ -82,9 +87,7 @@ const Committee = () => {
         <p>Dr. Debasis Das, IIT Jodhpur</p>
         <p>Dr. Karan Singh, JNU</p>
         <p>Dr. Arijit Karati, NSYU</p>
-        <h3>Publication  Chair</h3>
-        <p>Dr. Shyamalendu Kandar, IIEST Shibpur</p>
-        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+       
        
         <h3>Sponsorship Committee</h3>
         <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>

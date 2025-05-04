@@ -41,7 +41,7 @@ const Venue = () => {
         </div>
 
         <h1 className="mainTitle-banner-title">
-        2nd International Conference on Information Systems and Security (ICISS 2026)
+        Second International Conference on Information Systems and Security (ICISS 2026)
         </h1>
       </div>
 

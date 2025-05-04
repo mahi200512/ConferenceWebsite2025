@@ -48,7 +48,7 @@ const Schedule = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-          
+        ICISS 2026
         </h1>
       </div>
       <div className="scrolling-strip">

@@ -39,7 +39,7 @@ const About = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-        2nd International Conference on Information Systems and Security (ICISS 2026)
+        Second International Conference on Information Systems and Security (ICISS 2026)
         </h1>
               
            </div>
@@ -69,8 +69,6 @@ ICISS 2026 welcomes original contributions in the form of research papers, case 
 <p><b>Publication and Indexing:</b><br/>
 All accepted and presented papers will be published in the Lecture Notes in Networks and Systems (LNNS) series (Approval Pending), which is indexed by SCOPUS, INSPEC, WTI Frankfurt EG, ZbMATH, SCImago, and Web of Science.</p>
 
-<p><b>Special Journal Publication Opportunity:</b><br/>
-Top three papers in each track (1st, 2nd, and 3rd place) may be selected for consideration for publication in the Journal of The Institution of Engineers (India): Series B (SCImago and SCOPUS indexed). Selected papers will require substantial enhancement (up to 80%) and will undergo a rigorous peer review process as per the journal’s standards.</p>
 </p>
       <p className="about-highlight" data-aos="fade-left">
       <h1 className='MainHeading'>About IIIT Naya Raipur: </h1>
