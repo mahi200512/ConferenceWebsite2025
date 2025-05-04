@@ -112,7 +112,7 @@ const Committee = () => {
 <p>Dr. Deepika Gupta, IIIT Naya Raipur</p>
 <p>Dr. Avantika Singh, IIIT Naya Raipur</p>
 <p>Dr. Abhishek Sharma, IIIT Naya Raipur</p>
-        </div><div className='com1'><h3>Technical Committee</h3>
+        </div><div className='com1'><h3>Technical Program Committee</h3>
         <p>Dr. Abhisekh Das, Alia University, India</p>
   <p>Dr. Alekha Kumar Mishra, NIT Jamshedpur, India</p>
   <p>Dr. Alavalapati Goutham Reddy, University of Illinois, USA</p>
@@ -153,9 +153,14 @@ const Committee = () => {
   <p>Dr. Venkanna U, NIT Warangal, India</p>
   <p>Dr. Venkatasamy Sureshkumar, PSG College of Technology, India</p>
         <h3>Advisory Committee</h3>
+        <p>Dr. Sukumar Nandi, IIT Guwahati, India</p>
+        <p>Dr. Muhammad Khurram Khan, King Saud University, Saudi Arabia</p>
         <p>Dr. D. A. Khan, NIT Jamshedpur, India</p>
         <p>Dr. Kim-Kwang Raymond Choo, University of Texas, USA</p>
-        <p>Debiao He, Wuhan University, China</p>
+        <p>Dr. Debiao He, Wuhan University, China</p>
+        <p>Dr. Ashok Kumar Das, IIIT Hyderabad, India</p>
+        <p>Dr. Chiranjeev Kumar, IIT(ISM) Dhanbad, India</p>
+        <p>Dr. Santosh Biswas, IIT Bhilai, India</p>
         
         </div>
       </div>
