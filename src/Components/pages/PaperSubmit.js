@@ -69,6 +69,7 @@ const PaperSubmit = () => {
         <li>Follow the authors instructions in the Information for Authors of Springer Proceedings. Relevant Word and LaTeX templates can be found from <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>.</li>
         <li>Click here for Paper format (.Doc and Latex) file <a href="https://drive.google.com/drive/folders/1KGhe9T_0NyeyQ6r7AtDTw6T6w7p0Y-N8?usp=drive_link">here</a>.</li>
 
+      <li><b>Acknowledgments:</b> The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. </li>
 
         
       </ol>
