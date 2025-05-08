@@ -86,7 +86,7 @@ const PaperSubmit = () => {
   <Button
     buttonStyle="btn--primary"
     buttonSize="btn--large"
-    href="https://example.com"
+    href=""
   >
     Submit Your Paper
   </Button>
