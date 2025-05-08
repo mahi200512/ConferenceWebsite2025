@@ -39,7 +39,7 @@ const Committee = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-                Second International Conference on Information Systems and Security (ICISS 2026)
+                Second International Conference on Intelligent Systems and Security (ICISS 2026)
         </h1>
         
       </div>
@@ -62,105 +62,105 @@ const Committee = () => {
         <p>Dr. Mithilesh K Choube, IIIT Naya Raipur</p>
         <p>Dr. Rajarshi Mahapatra, IIIT Naya Raipur</p>
         <h3>General Chair</h3>
-        <p>Dr.Satyanarayana Vollala, IIIT Naya Raipur</p>
-        <p>Dr. Santosh Kumar IIIT Naya Raipur</p>
+        <p>Satyanarayana Vollala, IIIT Naya Raipur</p>
+        <p>Santosh Kumar IIIT Naya Raipur</p>
 
         <h3>Program Chair(s)</h3>
-        <p>Dr. Debasis Giri, MAKAUT</p>
-        <p>Dr. Sangram Ray, NIT Sikkim</p>
-        <p>Dr. Sanasam Ranbir Singh, IIT Guwahati</p>
-        <p>Dr. Arup Kumar Pal, IIT(ISM) Dhanbad</p>
+        <p>Debasis Giri, MAKAUT</p>
+        <p>Sangram Ray, NIT Sikkim</p>
+        <p>Sanasam Ranbir Singh, IIT Guwahati</p>
+        <p>Arup Kumar Pal, IIT(ISM) Dhanbad</p>
 
         <h3>Publication  Chair</h3>
-        <p>Dr. Shyamalendu Kandar, IIEST Shibpur</p>
-        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+        <p>Shyamalendu Kandar, IIEST Shibpur</p>
+        <p>Ruhul Amin, IIIT Naya Raipur</p>
 
         <h3>Organizing Chair</h3>
-        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+        <p>Ruhul Amin, IIIT Naya Raipur</p>
         <h3>Organizing Secretary</h3>
-        <p>Dr. Vinay Kumar, IIIT Naya Raipur</p>
+        <p>Vinay Kumar, IIIT Naya Raipur</p>
         
         <h3>Publicity Chair</h3>
-        <p>Dr. Shailesh Khapre, IIIT Naya Raipur</p>
-        <p>Dr. Mayukh Sarkar, NIT Jamshedpur</p>
-        <p>Dr. Goutham Alavalapati,  University of Illinois</p>
-        <p>Dr. Debasis Das, IIT Jodhpur</p>
-        <p>Dr. Karan Singh, JNU</p>
-        <p>Dr. Arijit Karati, NSYU</p>
+        <p>Shailesh Khapre, IIIT Naya Raipur</p>
+        <p>Mayukh Sarkar, NIT Jamshedpur</p>
+        <p>Goutham Alavalapati,  University of Illinois</p>
+        <p>Debasis Das, IIT Jodhpur</p>
+        <p>Karan Singh, JNU</p>
+        <p>Arijit Karati, NSYU</p>
        
        
         <h3>Sponsorship Committee</h3>
-        <p>Dr. Ruhul Amin, IIIT Naya Raipur</p>
+        <p>Ruhul Amin, IIIT Naya Raipur</p>
         <h3>Website Management Committee</h3>
-        <p>Mr. Abir Bhattacharya, IIIT Naya Raipur</p>
-        <p>Mr. Parvinder Singh, IIIT Naya Raipur</p>
-        <p>Ms. Thakur Mahima Nuruti, IIIT Naya Raipur</p>
-        <p>Mr. Anshumaan Karna, IIIT Naya Raipur</p>
+        <p>Abir Bhattacharya, IIIT Naya Raipur</p>
+        <p>Parvinder Singh, IIIT Naya Raipur</p>
+        <p>Thakur Mahima Nuruti, IIIT Naya Raipur</p>
+        <p>Anshumaan Karna, IIIT Naya Raipur</p>
         
         <h3>Local Organizing Committee</h3>
-        <p>Dr. Punya P. Paltani, IIIT Naya Raipur</p>
-<p>Dr. Shrivishal Tripathi, IIIT Naya Raipur</p>
-<p>Dr. Sresha Yadav, IIIT Naya Raipur</p>
-<p>Dr. Manoj Kumar Majumder, IIIT Naya Raipur</p>
-<p>Dr. Maifuz Ali, IIIT Naya Raipur</p>
-<p>Dr. Amit Kumar Agrawal, IIIT Naya Raipur</p>
-<p>Dr. Anurag Singh, IIIT Naya Raipur</p>
-<p>Dr. Ramakrishna Bandi, IIIT Naya Raipur</p>
-<p>Dr. Shailesh Khapre, IIIT Naya Raipur</p>
-<p>Dr. Vijaya J, IIIT Naya Raipur</p>
-<p>Dr. Lakhindar Murmu, IIIT Naya Raipur</p>
-<p>Dr. Deepika Gupta, IIIT Naya Raipur</p>
-<p>Dr. Avantika Singh, IIIT Naya Raipur</p>
-<p>Dr. Abhishek Sharma, IIIT Naya Raipur</p>
+        <p>Punya P. Paltani, IIIT Naya Raipur</p>
+<p>Shrivishal Tripathi, IIIT Naya Raipur</p>
+<p>Sresha Yadav, IIIT Naya Raipur</p>
+<p>Manoj Kumar Majumder, IIIT Naya Raipur</p>
+<p>Maifuz Ali, IIIT Naya Raipur</p>
+<p>Amit Kumar Agrawal, IIIT Naya Raipur</p>
+<p>Anurag Singh, IIIT Naya Raipur</p>
+<p>Ramakrishna Bandi, IIIT Naya Raipur</p>
+<p>Shailesh Khapre, IIIT Naya Raipur</p>
+<p>Vijaya J, IIIT Naya Raipur</p>
+<p>Lakhindar Murmu, IIIT Naya Raipur</p>
+<p>Deepika Gupta, IIIT Naya Raipur</p>
+<p>Avantika Singh, IIIT Naya Raipur</p>
+<p>Abhishek Sharma, IIIT Naya Raipur</p>
         </div><div className='com1'><h3>Technical Program Committee</h3>
-        <p>Dr. Abhisekh Das, Alia University, India</p>
-  <p>Dr. Alekha Kumar Mishra, NIT Jamshedpur, India</p>
-  <p>Dr. Alavalapati Goutham Reddy, University of Illinois, USA</p>
-  <p>Dr. Alawi A. Al-saggaf, KFUPM, Saudi Arabia</p>
-  <p>Dr. Bimal Kumar Meher, Silicon University, India</p>
-  <p>Dr. Cheng-Chi Lee, Fu Jen Catholic University, Taiwan</p>
-  <p>Dr. Chien-Ming Chen, Shandong University of Science and Technology, China</p>
-  <p>Dr. Debanjan Das, IIT Kharagpur, India</p>
-  <p>Dr. Debiao He, Wuhan University, China</p>
-  <p>Dr. Dhreendra Mishra, MANIT Bhopal, India</p>
-  <p>Dr. Gopa Bhaumik, NIT Jamshedpur, India</p>
-  <p>Dr. Kinsuk Giri, NITTTR Kolkata, India</p>
-  <p>Dr. Mayukh Sarkar, NIT Jamshedpur, India</p>
-  <p>Dr. Md Azharuddin, Alia University, India</p>
-  <p>Dr. Mohd Shameem, KFUPM, Saudi Arabia</p>
-  <p>Dr. Mohammad Abdussami, SRM University, India</p>
-  <p>Dr. Mohammad Shariq, United Arab Emirates University, UAE</p>
-  <p>Dr. Mou Dasgupta, NIT Raipur, India</p>
-  <p>Dr. M. Brindha, NIT Trichy, India</p>
-  <p>Dr. Naeem Ahmad, NIT Raipur, India</p>
-  <p>Dr. Neetesh Saxena, Georgia Institute of Technology, Atlanta, USA</p>
-  <p>Dr. Neha Agrawal, IIIT Sri City, India</p>
-  <p>Dr. Nitin Gupta, NIT Hamirpur, India</p>
-  <p>Dr. Odelu Vanga, IIIT Chittoor, India</p>
-  <p>Dr. Ponnuru Raveendra Babu, Virginia Military Institute & Virginia Tech, USA</p>
-  <p>Dr. Preeti Chandrakar, NIT Raipur, India</p>
-  <p>Dr. Prasanto Gope, University of Sheffield, UK</p>
-  <p>Dr. Rifaqat Ali, NIT Hamirpur, India</p>
-  <p>Dr. Rohit Kumar, Shiv Nadar University, India</p>
-  <p>Dr. Saiyed Umer, Alia University, India</p>
-  <p>Dr. Sanjeev Kumar Dwivedi, MITS Gwalior, India</p>
-  <p>Dr. Shehzad Ashraf Chaudhry, Abu Dhabi University</p>
-  <p>Dr. SK Haifzul Islam, IIIT Kalyani, India</p>
-  <p>Dr. Sukhpal Singh Gill, Queen Mary University of London, UK</p>
-  <p>Dr. Subrata Dutta, NIT Jamshedpur, India</p>
-  <p>Dr. Taher Al-Shehari, King Saud University, Saudi Arabia</p>
-  <p>Dr. Tanmoy Maitra, KIIT Bhubaneshwar, India</p>
-  <p>Dr. Venkanna U, NIT Warangal, India</p>
-  <p>Dr. Venkatasamy Sureshkumar, PSG College of Technology, India</p>
+        <p>Abhisekh Das, Alia University, India</p>
+  <p>Alekha Kumar Mishra, NIT Jamshedpur, India</p>
+  <p>Alavalapati Goutham Reddy, University of Illinois, USA</p>
+  <p>Alawi A. Al-saggaf, KFUPM, Saudi Arabia</p>
+  <p>Bimal Kumar Meher, Silicon University, India</p>
+  <p>Cheng-Chi Lee, Fu Jen Catholic University, Taiwan</p>
+  <p>Chien-Ming Chen, Shandong University of Science and Technology, China</p>
+  <p>Debanjan Das, IIT Kharagpur, India</p>
+  <p>Debiao He, Wuhan University, China</p>
+  <p>Dhreendra Mishra, MANIT Bhopal, India</p>
+  <p>Gopa Bhaumik, NIT Jamshedpur, India</p>
+  <p>Kinsuk Giri, NITTTR Kolkata, India</p>
+  <p>Mayukh Sarkar, NIT Jamshedpur, India</p>
+  <p>Md Azharuddin, Alia University, India</p>
+  <p>Mohd Shameem, KFUPM, Saudi Arabia</p>
+  <p>Mohammad Abdussami, SRM University, India</p>
+  <p>Mohammad Shariq, United Arab Emirates University, UAE</p>
+  <p>Mou Dasgupta, NIT Raipur, India</p>
+  <p>M. Brindha, NIT Trichy, India</p>
+  <p>Naeem Ahmad, NIT Raipur, India</p>
+  <p>Neetesh Saxena, Georgia Institute of Technology, Atlanta, USA</p>
+  <p>Neha Agrawal, IIIT Sri City, India</p>
+  <p>Nitin Gupta, NIT Hamirpur, India</p>
+  <p>Odelu Vanga, IIIT Chittoor, India</p>
+  <p>Ponnuru Raveendra Babu, Virginia Military Institute & Virginia Tech, USA</p>
+  <p>Preeti Chandrakar, NIT Raipur, India</p>
+  <p>Prasanto Gope, University of Sheffield, UK</p>
+  <p>Rifaqat Ali, NIT Hamirpur, India</p>
+  <p>Rohit Kumar, Shiv Nadar University, India</p>
+  <p>Saiyed Umer, Alia University, India</p>
+  <p>Sanjeev Kumar Dwivedi, MITS Gwalior, India</p>
+  <p>Shehzad Ashraf Chaudhry, Abu Dhabi University</p>
+  <p>SK Haifzul Islam, IIIT Kalyani, India</p>
+  <p>Sukhpal Singh Gill, Queen Mary University of London, UK</p>
+  <p>Subrata Dutta, NIT Jamshedpur, India</p>
+  <p>Taher Al-Shehari, King Saud University, Saudi Arabia</p>
+  <p>Tanmoy Maitra, KIIT Bhubaneshwar, India</p>
+  <p>Venkanna U, NIT Warangal, India</p>
+  <p>Venkatasamy Sureshkumar, PSG College of Technology, India</p>
         <h3>Advisory Committee</h3>
-        <p>Dr. Sukumar Nandi, IIT Guwahati, India</p>
-        <p>Dr. Muhammad Khurram Khan, King Saud University, Saudi Arabia</p>
-        <p>Dr. D. A. Khan, NIT Jamshedpur, India</p>
-        <p>Dr. Kim-Kwang Raymond Choo, University of Texas, USA</p>
-        <p>Dr. Debiao He, Wuhan University, China</p>
-        <p>Dr. Ashok Kumar Das, IIIT Hyderabad, India</p>
-        <p>Dr. Chiranjeev Kumar, IIT(ISM) Dhanbad, India</p>
-        <p>Dr. Santosh Biswas, IIT Bhilai, India</p>
+        <p>Sukumar Nandi, IIT Guwahati, India</p>
+        <p>Muhammad Khurram Khan, King Saud University, Saudi Arabia</p>
+        <p>D. A. Khan, NIT Jamshedpur, India</p>
+        <p>Kim-Kwang Raymond Choo, University of Texas, USA</p>
+        <p>Debiao He, Wuhan University, China</p>
+        <p>Ashok Kumar Das, IIIT Hyderabad, India</p>
+        <p>Chiranjeev Kumar, IIT(ISM) Dhanbad, India</p>
+        <p>Santosh Biswas, IIT Bhilai, India</p>
         
         </div>
       </div>

@@ -46,7 +46,7 @@ const Papers = () => {
         </div>
         <h1 className="mainTitle-banner-title"></h1>
         <h1 className="mainTitle-banner-title">
-        Second International Conference on Information Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security (ICISS 2026)
         </h1>
       </div>
 
@@ -67,7 +67,7 @@ const Papers = () => {
 
         <h4>ICISS 2026 Conference Highlights:</h4>
         <ul className="highlights-list">
-          <li>Accepted papers to be published in LNNS (Springer, SCOPUS-indexed) with a chance for enhanced journal publication.</li>
+          <li>All accepted and presented papers will be published by Springer (waiting for approval)</li>
           <li>Connect with leading researchers, industry experts, and practitioners from around the world.</li>
           <li>Participation certificate will be issued to all the registered participants.</li>
           <li>Best Paper Awards will be given in each track.</li>
@@ -77,13 +77,13 @@ const Papers = () => {
 
         <div className="tabs">
           <button className={activeTab === 'trackA' ? 'active' : ''} onClick={() => handleTabClick('trackA')}>
-            Track A
+            Track A: Intelligent Systems and Applications
           </button>
           <button className={activeTab === 'trackB' ? 'active' : ''} onClick={() => handleTabClick('trackB')}>
-            Track B
+            Track B: Security and Privacy
           </button>
           <button className={activeTab === 'trackC' ? 'active' : ''} onClick={() => handleTabClick('trackC')}>
-            Track C
+            Track C: Emerging Trends in Intelligent and Security Systems
           </button>
         </div>
 

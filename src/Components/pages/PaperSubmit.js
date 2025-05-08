@@ -41,7 +41,7 @@ const PaperSubmit = () => {
         </div>
         <h1 className="mainTitle-banner-title"></h1>
         <h1 className="mainTitle-banner-title">
-        Second International Conference on Information Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security (ICISS 2026)
         </h1>
 
 
