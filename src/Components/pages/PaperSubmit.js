@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import React from "react";
 import { Link } from 'react-router-dom';
-import "../../App.css"; // Ensure this is correctly linked or use Committee.css if separate
+import "../../App.css"; 
+import { Button } from '../Button';
+// Ensure this is correctly linked or use Committee.css if separate
 const bannerImages = [
   '/images/IIITNRRR.png',
   '/images/IIITNRTTopView.png',
@@ -80,12 +82,20 @@ const PaperSubmit = () => {
       The authors are pleasingly invited to submit the full paper of their original, unpublished, 
       research contribution which is not currently under review by another conference or journal. 
       Only the accepted and registered papers will be allowed to present at the conference. <b> Submissions for the conference must be made online using CMT Portal.</b>
-         
-      
+      <div className="button-wrapper">
+  <Button
+    buttonStyle="btn--primary"
+    buttonSize="btn--large"
+    href="https://example.com"
+  >
+    Submit Your Paper
+  </Button>
+</div>
+
+
         </ol>
 
-
-            
+                   
         </div>
 
         
