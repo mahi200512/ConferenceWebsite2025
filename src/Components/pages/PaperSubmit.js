@@ -73,7 +73,24 @@ const PaperSubmit = () => {
 
         
       </ol>
-    </div>
+
+
+      <h1 className='Authguideline'>Submit Your Paper</h1>
+      <ol className='AuthRules'>
+      The authors are pleasingly invited to submit the full paper of their original, unpublished, 
+      research contribution which is not currently under review by another conference or journal. 
+      Only the accepted and registered papers will be allowed to present at the conference. <b> Submissions for the conference must be made online using CMT Portal.</b>
+         
+      
+        </ol>
+
+
+            
+        </div>
+
+        
+
+        
   );
 };
 export default PaperSubmit;
