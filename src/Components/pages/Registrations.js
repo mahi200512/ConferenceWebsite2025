@@ -54,7 +54,7 @@ const Registrations = () => {
         </ul>
       </div>
  
-      <h1 className="registration-title">Registration & Fees Details</h1>
+      <h1 className="registration-title" style={{ color: '#0021f3' }}>Registration & Fees Details</h1>
 
       <p className="registration-text">
         Participants are required to pay the registration fee directly to the designated bank account. 

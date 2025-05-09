@@ -58,7 +58,10 @@ const PaperSubmit = () => {
           <li><a href="/footer">📍 Quick Link</a></li>
                 </ul>
               </div>
-      <h1 className='Authguideline'>Author's Guidelines</h1>
+
+              
+        
+      <h1 className='Authguideline'style={{ color: '#0021f3' }}>Author's Guidelines</h1>
       <ol className='AuthRules'>
         <li>Each paper must be original and unpublished work, not submitted for publication elsewhere. Authors are responsible for avoiding any copyright infringement issues. Papers should be written in good English.</li>
         <li>Submissions must be anonymous, without author name(s), affiliation(s), acknowledgments, or obvious references in LNNS Format (Word, LaTeX).</li>
@@ -77,7 +80,7 @@ const PaperSubmit = () => {
       </ol>
 
 
-      <h1 className='Authguideline'>Submit Your Paper</h1>
+      <h1 className='Authguideline'style={{ color: '#0021f3' }}>Submit Your Paper</h1>
       <ol className='AuthRules'>
       The authors are pleasingly invited to submit the full paper of their original, unpublished, 
       research contribution which is not currently under review by another conference or journal. 

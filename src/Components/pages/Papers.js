@@ -62,7 +62,14 @@ const Papers = () => {
       </div>
 
       <div className="call-for-papers">
-        <h2>Call for Papers</h2>
+
+        <h2>
+  <a style={{ color: '#0021f3', fontWeight: 'bold' }}>
+  Call for Papers
+  </a>
+</h2>
+
+
         <h3>“ICISS 2026: Innovate, Collaborate, and Secure the Future of Intelligent Systems”</h3>
 
         <h4>ICISS 2026 Conference Highlights:</h4>

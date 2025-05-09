@@ -56,7 +56,7 @@ const Venue = () => {
         </ul>
       </div>
 
-      <p className="venue-intro">Join us for ICISS 2026 at IIIT Naya Raipur.</p>
+      <p className="venue-intro" style={{ color: '#0021f3' }}>Join us for ICISS 2026 at IIIT Naya Raipur.</p>
 
       <div className="venue-info">
         <h2>📍 Location Details</h2>

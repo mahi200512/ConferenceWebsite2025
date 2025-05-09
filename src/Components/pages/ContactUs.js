@@ -71,7 +71,7 @@ const ContactUs = () => {
         </ul>
       </div>
 
-      <p className="Git">Have questions? Get in touch with us.</p>
+      <p className="Git" style={{ color: '#0021f3' }}>Have questions? Get in touch with us.</p>
 
       <div className="contact-content">
         {/* Contact Form */}
