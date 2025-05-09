@@ -60,7 +60,7 @@ const Committee = () => {
         <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur</p>
         <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT Naya Raipur</p>
         <p>Dr. Mithilesh K Choube, IIIT Naya Raipur</p>
-        <p>Dr. Rajarshi Mahapatra, IIIT Naya Raipur</p>
+        
         <h3>General Chair</h3>
         <p>Satyanarayana Vollala, IIIT Naya Raipur</p>
         <p>Santosh Kumar IIIT Naya Raipur</p>
@@ -154,6 +154,7 @@ const Committee = () => {
   <p>Venkatasamy Sureshkumar, PSG College of Technology, India</p>
         <h3>Advisory Committee</h3>
         <p>Sukumar Nandi, IIT Guwahati, India</p>
+        <p>Rajarshi Mahapatra, IIIT Naya Raipur</p>
         <p>Muhammad Khurram Khan, King Saud University, Saudi Arabia</p>
         <p>D. A. Khan, NIT Jamshedpur, India</p>
         <p>Kim-Kwang Raymond Choo, University of Texas, USA</p>

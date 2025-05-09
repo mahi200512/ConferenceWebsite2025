@@ -86,7 +86,7 @@ const PaperSubmit = () => {
   <Button
     buttonStyle="btn--primary"
     buttonSize="btn--large"
-    href=""
+    href="https://cmt3.research.microsoft.com/ICISS2026"
   >
     Submit Your Paper
   </Button>
