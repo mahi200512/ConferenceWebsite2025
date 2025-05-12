@@ -59,11 +59,11 @@ const Committee = () => {
       
         <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur</p>
         <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT Naya Raipur</p>
-        <p>Dr. Mithilesh K Choube, IIIT Naya Raipur</p>
+        <p>Dr. Mithilesh K. Choube, IIIT Naya Raipur</p>
         
         <h3>General Chair</h3>
         <p>Satyanarayana Vollala, IIIT Naya Raipur</p>
-        <p>Santosh Kumar IIIT Naya Raipur</p>
+        <p>Santosh Kumar, IIIT Naya Raipur</p>
 
         <h3>Program Chair(s)</h3>
         <p>Debasis Giri, MAKAUT</p>
@@ -81,7 +81,6 @@ const Committee = () => {
         <p>Vinay Kumar, IIIT Naya Raipur</p>
         
         <h3>Publicity Chair</h3>
-        <p>Shailesh Khapre, IIIT Naya Raipur</p>
         <p>Mayukh Sarkar, NIT Jamshedpur</p>
         <p>Goutham Alavalapati,  University of Illinois</p>
         <p>Debasis Das, IIT Jodhpur</p>
@@ -91,6 +90,7 @@ const Committee = () => {
        
         <h3>Sponsorship Committee</h3>
         <p>Ruhul Amin, IIIT Naya Raipur</p>
+        
         <h3>Website Management Committee</h3>
         <p>Abir Bhattacharya, IIIT Naya Raipur</p>
         <p>Parvinder Singh, IIIT Naya Raipur</p>
@@ -106,12 +106,14 @@ const Committee = () => {
 <p>Amit Kumar Agrawal, IIIT Naya Raipur</p>
 <p>Anurag Singh, IIIT Naya Raipur</p>
 <p>Ramakrishna Bandi, IIIT Naya Raipur</p>
-<p>Shailesh Khapre, IIIT Naya Raipur</p>
 <p>Vijaya J, IIIT Naya Raipur</p>
 <p>Lakhindar Murmu, IIIT Naya Raipur</p>
 <p>Deepika Gupta, IIIT Naya Raipur</p>
 <p>Avantika Singh, IIIT Naya Raipur</p>
 <p>Abhishek Sharma, IIIT Naya Raipur</p>
+<p>Shailesh Khapre, IIIT Naya Raipur</p>
+<p>Bipin Chandra Mandi, IIIT Naya Raipur</p>
+
         </div><div className='com1'><h3>Technical Program Committee</h3>
         <p>Abhisekh Das, Alia University, India</p>
   <p>Alekha Kumar Mishra, NIT Jamshedpur, India</p>
@@ -162,6 +164,8 @@ const Committee = () => {
         <p>Ashok Kumar Das, IIIT Hyderabad, India</p>
         <p>Chiranjeev Kumar, IIT(ISM) Dhanbad, India</p>
         <p>Santosh Biswas, IIT Bhilai, India</p>
+        <p>Archana Sharma, IIIT Naya Raipur, India</p>
+
         
         </div>
       </div>
