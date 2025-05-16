@@ -29,8 +29,8 @@ const Footer = () => {
 
         <div className="footer-section">
           <h3>Contact Person</h3>
-          <p>Dr. Ruhul Amin<br/>+91 88041 52340</p>
-          <p>Dr. Vinay Kumar<br/>+91 94546 90527</p>
+          <p> Ruhul Amin<br/>+91 88041 52340</p>
+          <p> Vinay Kumar<br/>+91 94546 90527</p>
           <a href="mailto:iciss2026@iiitnr.edu.in"><p><Link to="/contact">Email: iciss2026@iiitnr.edu.in</Link></p></a>
         </div>
 
