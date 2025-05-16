@@ -154,6 +154,7 @@ const Committee = () => {
   <p>Tanmoy Maitra, KIIT Bhubaneshwar, India</p>
   <p>Venkanna U, NIT Warangal, India</p>
   <p>Venkatasamy Sureshkumar, PSG College of Technology, India</p>
+  <p>Ashok Kumar Pradhan, SRM-AP, India</p>
         <h3>Advisory Committee</h3>
         <p>Sukumar Nandi, IIT Guwahati, India</p>
         <p>Rajarshi Mahapatra, IIIT Naya Raipur</p>

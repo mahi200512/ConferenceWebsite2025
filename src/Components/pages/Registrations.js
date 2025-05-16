@@ -81,17 +81,17 @@ const Registrations = () => {
             <tr>
               <td>Research Scholar/Student (UG, PG, PhD)</td>
               <td>INR 5000 + 18% GST = 5900</td>
-              <td>USD 150 (including GST)</td>
+              <td>USD 100 (including GST)</td>
             </tr>
             <tr>
               <td>Academician/Faculty</td>
               <td>INR 5500 + 18% GST = 6490</td>
-              <td>USD 200 (including GST)</td>
+              <td>USD 150 (including GST)</td>
             </tr>
             <tr>
               <td>Industry Personnel</td>
               <td>INR 6500 + 18% GST = 7670</td>
-              <td>USD 300 (including GST)</td>
+              <td>USD 250 (including GST)</td>
             </tr>
           </tbody>
         </table>
