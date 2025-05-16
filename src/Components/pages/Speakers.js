@@ -10,6 +10,14 @@ const bannerImages = [
   '/images/IIITNRNightImage.jpeg'
 ];
 
+const speakersData = [
+  {
+    name: "Dr. Santi P. Maity",
+    organization: "Professor, IIEST Shibpur",
+    webpage: "https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity",
+    image: process.env.PUBLIC_URL + "/images/drSantip.jpg"
+  },
+];
 /*
 const speakersData = [
   {
@@ -110,7 +118,8 @@ const Speakers = () => {
           </Link>
         </div>
         <h1 className="mainTitle-banner-title">
-        Second International Conference on Intelligent Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security
+         <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
         </h1>
       </div>
 
@@ -127,13 +136,12 @@ const Speakers = () => {
 
       <div className="speakers-intro">
         <h2>Meet Our Esteemed Speakers</h2>
-        {/* <p>Discover the minds shaping the future of Information Systems Security.</p>
+        <p>Discover the minds shaping the future of Information Systems Security.</p>
         <div className="speakers-carrd">
           {speakersData.map((speaker, index) => (
             <SpeakerCard key={index} {...speaker} />
           ))}
-        </div> */}
-        <p>TO BE UPDATED SOON.....</p>
+        </div>
       </div>
     </div>
   );

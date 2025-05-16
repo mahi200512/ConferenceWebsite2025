@@ -61,6 +61,9 @@ function Navbar() {
               <Link to='/PaperSubmit' className='navLinks' onClick={closeMobileMenu}>Paper Submissions</Link>
             </li>
             <li className='nav-items'>
+              <Link to='/Sponsorship' className='navLinks' onClick={closeMobileMenu}>Call for Sponsorship</Link>
+            </li>
+            <li className='nav-items'>
               <Link to='/Schedule' className='navLinks' onClick={closeMobileMenu}>Important Dates</Link>
             </li>
             <li className='nav-items'>

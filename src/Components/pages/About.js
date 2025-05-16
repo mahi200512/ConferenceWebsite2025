@@ -6,18 +6,34 @@ const bannerImages = [
   '/images/IIITNRRR.png',
   '/images/IIITNRTTopView.png',
   '/images/IIITNRFrontDroneView.png',
-  '/images/IIITNRNightImage.jpeg'
+  '/images/IIITNRNightImage.jpeg',
+  '/images/junglesafari.jpg'
 ];
 const About = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  
+  const [visitorCount, setVisitorCount] = useState(null);
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentImage((prev) => (prev + 1) % bannerImages.length);
       }, 5000); // Change every 5 seconds
-  
-      return () => clearInterval(interval);
+    return () => clearInterval(interval);
     }, []);
+  useEffect(() => {
+  fetch('https://api.countapi.xyz/hit/iciss2026/homepage')
+    .then(res => res.json())
+    .then(data => {
+      if (data && typeof data.value === 'number') {
+        setVisitorCount(data.value);
+      } else {
+        setVisitorCount('N/A');
+      }
+    })
+    .catch((error) => {
+      console.error('Visitor counter error:', error);
+      setVisitorCount('N/A');
+    });
+}, []);
+      
   return (
     <div className="about-container">
         <div
@@ -39,9 +55,16 @@ const About = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-        Second International Conference on Intelligent Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security
+         <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
         </h1>
-              
+          <div className="banner-bottom-left">
+    Conference: 14–16 January 2026
+  </div>
+
+  <div className="banner-bottom-right">
+    Submission Deadline: 30 June 2025
+  </div>
            </div>
 
            
@@ -78,7 +101,9 @@ All accepted and presented papers will be published in the Lecture Notes in Netw
       <p className="about-description2" data-aos="fade-right">
       Dr. Shyama Prasad Mukherjee International Institute of Information Technology, Naya Raipur (IIIT-NR) Established under the IIIT University Act, 2013 by the Government of Chhattisgarh, IIIT-NR is a joint venture between the Chhattisgarh State Government and NTPC. The institute is dedicated to excellence in education, research, and innovation in Information Technology and related fields. It emphasizes real-world problem solving, entrepreneurship, and interdisciplinary research through state-of-the-art labs and development centers. Located on a 50-acre lush green campus in the smart city of Naya Raipur, IIIT-NR offers a fully residential experience with Wi-Fi, CCTV, and excellent sports and recreational facilities. The institute currently offers three B.Tech. programs—in Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), and Data Science & Artificial Intelligence (DSAI). These credit-based, Fractal Curriculum-driven programs are designed to blend foundational knowledge with innovation and industry relevance.
       </p></p>
-
+        <div className="visitor-badge">
+        👁️ Visitors: {visitorCount === null ? 'Loading...' : visitorCount}
+      </div>
     </div>
   );
 };

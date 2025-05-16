@@ -54,9 +54,9 @@ const ContactUs = () => {
             <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
           </Link>
         </div>
-        <h1 className="mainTitle-banner-title"></h1>
         <h1 className="mainTitle-banner-title">
-        Second International Conference on Intelligent Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security
+         <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
         </h1>
       </div>
 
@@ -134,10 +134,10 @@ const ContactUs = () => {
           <p><strong>Conference Email:</strong><br />
             <a href="mailto:iciss2026@iiitnr.edu.in">iciss2026@iiitnr.ac.in</a></p>
 
-          <p><strong>Dr. Ruhul Amin:</strong><br />
+          <p><strong>Ruhul Amin:</strong><br />
             +91 88041 52340</p>
 
-          <p><strong>Dr. Vinay Kumar:</strong><br />
+          <p><strong>Vinay Kumar:</strong><br />
             +91 94546 90527</p>
         </div>
       </div>

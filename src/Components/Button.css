@@ -69,3 +69,20 @@
   padding: 0.85rem 2rem;
   font-size: 1.125rem;
 }
+.btn--smallwidth {
+  padding: 0.5rem 1rem; /* less horizontal padding */
+  font-size: 1rem; /* keep font size readable */
+  width: 120px; /* or any width you prefer */
+  white-space: nowrap; /* prevents text from breaking */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.btn--large {
+  padding: 0.85rem 2rem;
+  font-size: 1.125rem;
+  max-width: 250px; /* limits how wide it gets */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

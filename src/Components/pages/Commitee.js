@@ -39,7 +39,8 @@ const Committee = () => {
   </Link>
 </div>
         <h1 className="mainTitle-banner-title">
-                Second International Conference on Intelligent Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security
+         <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
         </h1>
         
       </div>

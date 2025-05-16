@@ -41,9 +41,9 @@ const PaperSubmit = () => {
             <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
           </Link>
         </div>
-        <h1 className="mainTitle-banner-title"></h1>
         <h1 className="mainTitle-banner-title">
-        Second International Conference on Intelligent Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security
+         <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
         </h1>
 
 
@@ -87,12 +87,12 @@ const PaperSubmit = () => {
       Only the accepted and registered papers will be allowed to present at the conference. <b> Submissions for the conference must be made online using CMT Portal.</b>
       <div className="button-wrapper">
   <Button
-    buttonStyle="btn--primary"
-    buttonSize="btn--large"
-    href="https://cmt3.research.microsoft.com/ICISS2026"
-  >
-    Submit Your Paper
-  </Button>
+  buttonStyle="btn--primary"
+  buttonSize="btn--smallwidth"
+  href="https://cmt3.research.microsoft.com/ICISS2026"
+>
+  Submit Your Paper
+</Button>
 </div>
 
 

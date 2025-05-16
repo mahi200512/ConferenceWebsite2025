@@ -32,16 +32,49 @@ body {
 
 .mainTitle-banner-title {
   color: #ffffff;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 650;
   letter-spacing: 2px;
   text-align: center;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   position: relative;
+  top:20px;
   z-index: 2;
   margin: 0; /* prevents unwanted spacing */
 }
+.mainTitle-banner-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
 
+.banner-bottom-left,
+.banner-bottom-right {
+  position: absolute;
+  bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.banner-bottom-left {
+  left: 10px;
+}
+
+.banner-bottom-right {
+  right: 10px;
+}
+@media (max-width: 780px) {
+  .banner-bottom-left,
+  .banner-bottom-right {
+    display: none;
+  }
+}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
@@ -1481,6 +1514,7 @@ Banner
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   width: 100%;
@@ -1489,7 +1523,7 @@ Banner
 
 /* Optional: make sure button width adjusts on smaller screens */
 .button-wrapper .btn {
-  max-width: 300px;
+  max-width: 200px;
   width: 100%;
   text-decoration: none;
 }

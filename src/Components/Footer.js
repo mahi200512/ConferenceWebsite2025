@@ -1,8 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import  { useEffect, useState } from 'react';
 
 const Footer = () => {
+  const [timeLeft, setTimeLeft] = useState({ months: 0, days: 0, hours: 0 });
+
+useEffect(() => {
+  const targetDate = new Date("2026-01-14T00:00:00");
+
+  const updateTimer = () => {
+    const now = new Date();
+    const totalSeconds = Math.floor((targetDate - now) / 1000);
+
+    if (totalSeconds <= 0) {
+      setTimeLeft({ months: 0, days: 0, hours: 0 });
+      return;
+    }
+
+    const hours = Math.floor(totalSeconds / 3600) % 24;
+    const days = Math.floor(totalSeconds / (3600 * 24)) % 30;
+    const months = Math.floor(totalSeconds / (3600 * 24 * 30));
+
+    setTimeLeft({ months, days, hours });
+  };
+
+  updateTimer(); // initial call
+  const intervalId = setInterval(updateTimer, 3600000); // update every hour
+
+  return () => clearInterval(intervalId);
+}, []);
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -35,9 +63,12 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h3>Latest News</h3>
-          <p>To be updated soon…</p>
-        </div>
+  <h3>Latest News</h3>
+  <p>To be updated soon…</p>
+  <h3>Countdown to Conference</h3>
+  <p className="countdown">{timeLeft.months} months, {timeLeft.days} days, {timeLeft.hours} hours left</p>
+</div>
+
 
       </div>
     </footer>

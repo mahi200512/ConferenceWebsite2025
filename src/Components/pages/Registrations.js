@@ -38,23 +38,22 @@ const Registrations = () => {
     <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
   </Link>
 </div>
-<h1 className="mainTitle-banner-title"></h1>
         <h1 className="mainTitle-banner-title">
-        Second International Conference on Intelligent Systems and Security (ICISS 2026)
+        Second International Conference on Intelligent Systems and Security
+         <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
         </h1>
       </div>
       <div className="scrolling-strip">
         <ul className="scrolling-list">
-        <li><a href="/Schedule">📅 Conference Date: 14-16 January, 2026</a></li>
-        <li><a href="/Schedule">📅 Deadline:30th June, 2025</a></li>
         <li><a href="/Schedule">📅 Conference Schedule</a></li>
           <li><a href="/news">📰 Latest News</a></li>
           <li><a href="/venue">📍 Venue Details</a></li>
           <li><a href="/footer">📍 Quick Link</a></li>
+          <li><a href="/FAQs">📍 Frequently asked questions</a></li>
         </ul>
       </div>
- 
-      <h1 className="registration-title" style={{ color: '#0021f3' }}>Registration & Fees Details</h1>
+
+      <h1 className="registration-title">Registration & Fees Details</h1>
 
       <p className="registration-text">
         Participants are required to pay the registration fee directly to the designated bank account. 
@@ -81,17 +80,17 @@ const Registrations = () => {
             <tr>
               <td>Research Scholar/Student (UG, PG, PhD)</td>
               <td>INR 5000 + 18% GST = 5900</td>
-              <td>USD 100 (including GST)</td>
+              <td>USD 150 (including GST)</td>
             </tr>
             <tr>
               <td>Academician/Faculty</td>
               <td>INR 5500 + 18% GST = 6490</td>
-              <td>USD 150 (including GST)</td>
+              <td>USD 200 (including GST)</td>
             </tr>
             <tr>
               <td>Industry Personnel</td>
               <td>INR 6500 + 18% GST = 7670</td>
-              <td>USD 250 (including GST)</td>
+              <td>USD 300 (including GST)</td>
             </tr>
           </tbody>
         </table>
