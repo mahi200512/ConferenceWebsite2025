@@ -44,9 +44,9 @@ const Papers = () => {
             <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
           </Link>
         </div>
+        <h1 className="mainTitle-banner-title"></h1>
         <h1 className="mainTitle-banner-title">
-              Second International Conference on Intelligent Systems and Security
-         <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
+        Second International Conference on Intelligent Systems and Security (ICISS 2026)
         </h1>
       </div>
 
@@ -63,11 +63,9 @@ const Papers = () => {
 
       <div className="call-for-papers">
 
-        <h2>
-  <a style={{ color: '#0021f3', fontWeight: 'bold' }}>
-  Call for Papers
-  </a>
-</h2>
+        <h2> <a style={{ color: '#0021f3', fontWeight: 'bold' }}>
+        Call for Papers
+        </a> </h2>
 
 
         <h3>“ICISS 2026: Innovate, Collaborate, and Secure the Future of Intelligent Systems”</h3>
@@ -83,23 +81,59 @@ const Papers = () => {
         <p>Authors are invited to submit full-length original articles presenting their research results, project developments, experimental studies, or industrial experiences that showcase significant advancements in the following areas, but are not limited to:</p>
 
         <div className="tabs">
-          <button className={activeTab === 'trackA' ? 'active' : ''} onClick={() => handleTabClick('trackA')}>
-            Track A: Intelligent Systems and Applications
+
+        <button className={activeTab === 'trackA' ? 'active' : ''} onClick={() => handleTabClick('trackA')}>
+            Track A: Artificial Intelligence & Machine Learning
           </button>
+
           <button className={activeTab === 'trackB' ? 'active' : ''} onClick={() => handleTabClick('trackB')}>
-            Track B: Security and Privacy
+            Track B: Intelligent Systems and Applications
           </button>
           <button className={activeTab === 'trackC' ? 'active' : ''} onClick={() => handleTabClick('trackC')}>
-            Track C: Emerging Trends in Intelligent and Security Systems
+            Track C: Security and Privacy
           </button>
+          <button className={activeTab === 'trackD' ? 'active' : ''} onClick={() => handleTabClick('trackD')}>
+            Track D: Emerging Trends in Intelligent and Security Systems
+          </button>
+
         </div>
 
         <div className="tab-content">
           {activeTab === 'trackA' && (
             <div className="track">
+              <h5>Artificial Intelligence & Machine Learning </h5>
+              <ul>
+                <li>Supervised, unsupervised, and reinforcement learning</li>
+                <li>Deep learning models and optimization strategies</li>
+                <li>Federated and distributed machine learning</li>
+                
+                <li>Fairness, transparency, and accountability in AI</li>
+                <li>Quantum-enhanced machine learning</li>
+                <li>AI for sustainability and resilience</li>
+                <li>General-purpose AI applications across domains</li>
+
+                <li>Natural language processing and multimodal learning</li>
+                <li>Visual understanding and pattern recognition</li>
+                <li>Large language model (LLMs)</li>
+                <li>AI/ML in business intelligence and operations</li>
+
+                <li>Automated machine learning (AutoML)</li>
+                <li>Human-centered and inclusive AI systems</li>
+                <li>AI/ML in Healthcare and life sciences</li>
+                <li>AI/ML in Finance and banking</li>
+
+                <li>AI/ML in Agriculture and environmental monitoring</li>
+                <li>AI/ML in Smart cities and infrastructure</li>
+              </ul>
+            </div>
+          )}
+
+          {activeTab === 'trackB' && (
+            <div className="track">
               <h5>Intelligent Systems and Applications</h5>
               <ul>
-                <li>Artificial intelligence (AI) and machine learning (ML) algorithms and techniques</li>
+
+              <li>Artificial intelligence (AI) and machine learning (ML) algorithms and techniques</li>
                 <li>Intelligent data analysis and decision support systems</li>
                 <li>Natural language processing and understanding</li>
                 <li>Computer vision and pattern recognition</li>
@@ -114,15 +148,17 @@ const Papers = () => {
                 <li>Cloud and Edge AI Architectures</li>
                 <li>Anomaly Detection and Pattern Recognition</li>
                 <li>Time Series Analysis and Temporal Data Modeling</li>
+                
               </ul>
             </div>
           )}
 
-          {activeTab === 'trackB' && (
+          {activeTab === 'trackC' && (
             <div className="track">
-              <h5>Security and Privacy</h5>
+              <h5>Security and Privacy </h5>
               <ul>
-                <li>Cybersecurity</li>
+
+              <li>Cybersecurity</li>
                 <li>Computational number theory</li>
                 <li>Security in Blockchain</li>
                 <li>Network and system security</li>
@@ -146,15 +182,17 @@ const Papers = () => {
                 <li>Intelligent Threat Intelligence Systems</li>
                 <li>Cyber Deception and Intelligent Honeypots</li>
                 <li>Autonomous Security Operations Centers</li>
+               
               </ul>
             </div>
           )}
 
-          {activeTab === 'trackC' && (
+
+{activeTab === 'trackD' && (
             <div className="track">
               <h5>Emerging Trends in Intelligent and Security Systems</h5>
               <ul>
-                <li>Explainable AI (XAI) for Security</li>
+              <li>Explainable AI (XAI) for Security</li>
                 <li>AI-Driven Risk Management</li>
                 <li>Digital Twin</li>
                 <li>Secure Federated Learning and Privacy-Preserving AI</li>
@@ -166,9 +204,16 @@ const Papers = () => {
                 <li>Intelligent Threat Intelligence Systems</li>
                 <li>Cyber Deception and Intelligent Honeypots</li>
                 <li>Autonomous Security Operations Centers</li>
+               
               </ul>
             </div>
           )}
+
+
+
+
+
+
         </div>
       </div>
     </div>

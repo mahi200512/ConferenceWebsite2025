@@ -59,7 +59,7 @@ const About = () => {
          <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
         </h1>
           <div className="banner-bottom-left">
-    Conference: 14–16 January 2026
+          Conference: 14–16 January 2026 
   </div>
 
   <div className="banner-bottom-right">
