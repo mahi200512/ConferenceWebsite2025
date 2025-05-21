@@ -92,6 +92,11 @@ const Registrations = () => {
               <td>INR 6500 + 18% GST = 7670</td>
               <td>USD 300 (including GST)</td>
             </tr>
+            <tr>
+              <td>Non-Author</td>
+              <td>INR 1000 + 18% GST = 1180</td>
+              <td>USD 50 (including GST)</td>
+            </tr>
           </tbody>
         </table>
       </div>
