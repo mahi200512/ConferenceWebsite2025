@@ -18,10 +18,11 @@ const About = () => {
       }, 5000); // Change every 5 seconds
     return () => clearInterval(interval);
     }, []);
-  useEffect(() => {
+ useEffect(() => {
   fetch('https://api.countapi.xyz/hit/iciss2026/homepage')
     .then(res => res.json())
     .then(data => {
+      console.log("Visitor API response:", data); // <-- ADD THIS
       if (data && typeof data.value === 'number') {
         setVisitorCount(data.value);
       } else {
@@ -33,6 +34,7 @@ const About = () => {
       setVisitorCount('N/A');
     });
 }, []);
+
       
   return (
     <div className="about-container">
@@ -66,7 +68,6 @@ const About = () => {
     Submission Deadline: 30 June 2025
   </div>
            </div>
-
            
       <div className="scrolling-strip">
         <ul className="scrolling-list">
@@ -101,9 +102,10 @@ All accepted and presented papers will be published in the Lecture Notes in Netw
       <p className="about-description2" data-aos="fade-right">
       Dr. Shyama Prasad Mukherjee International Institute of Information Technology, Naya Raipur (IIIT-NR) Established under the IIIT University Act, 2013 by the Government of Chhattisgarh, IIIT-NR is a joint venture between the Chhattisgarh State Government and NTPC. The institute is dedicated to excellence in education, research, and innovation in Information Technology and related fields. It emphasizes real-world problem solving, entrepreneurship, and interdisciplinary research through state-of-the-art labs and development centers. Located on a 50-acre lush green campus in the smart city of Naya Raipur, IIIT-NR offers a fully residential experience with Wi-Fi, CCTV, and excellent sports and recreational facilities. The institute currently offers three B.Tech. programs—in Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), and Data Science & Artificial Intelligence (DSAI). These credit-based, Fractal Curriculum-driven programs are designed to blend foundational knowledge with innovation and industry relevance.
       </p></p>
-        <div className="visitor-badge">
-        👁️ Visitors: {visitorCount === null ? 'Loading...' : visitorCount}
-      </div>
+        <div className="visitor-badge" style={{ textAlign: 'center', margin: '2rem auto' }}>
+  👁️ Visitors: {visitorCount === null ? 'Loading...' : visitorCount}
+</div>
+
     </div>
   );
 };

@@ -13,6 +13,9 @@ import Venue from './Components/pages/Venue';
 import Speakers from './Components/pages/Speakers';
 import PaperSubmit from './Components/pages/PaperSubmit'; 
 import Registrations from './Components/pages/Registrations';
+import Sponsorship from './Components/pages/Sponsorship';
+import Explore from './Components/pages/Explore';
+
 function App() {
   return (
     <Router>
@@ -24,10 +27,12 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs />} />
         <Route path='/Papers' element={<Papers />} />
         <Route path='/PaperSubmit' element={<PaperSubmit />} />
-        <Route path='/Schedule' element={<Schedule />} /> {/* Removed space */}
+        <Route path='/Schedule' element={<Schedule />} />
         <Route path='/Venue' element={<Venue />} />
-        <Route path='/Registrations' element={<Registrations/>} />
+        <Route path='/Registrations' element={<Registrations />} />
         <Route path='/Speakers' element={<Speakers />} />
+        <Route path="/Sponsorship" element={<Sponsorship />} />
+        <Route path="/Explore" element={<Explore />} />
       </Routes>
       <Footer />
     </Router>
