@@ -17,6 +17,12 @@ const speakersData = [
     webpage: "https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity",
     image: process.env.PUBLIC_URL + "/images/drSantip.jpg"
   },
+  {
+    name: "Dr. Santi P. Maity",
+    organization: "Professor, IIEST Shibpur",
+    webpage: "https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity",
+    image: process.env.PUBLIC_URL + "/images/drSantip.jpg"
+  },
 ];
 /*
 const speakersData = [
