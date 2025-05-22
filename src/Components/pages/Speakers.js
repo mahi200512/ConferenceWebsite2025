@@ -16,9 +16,16 @@ const speakersData = [
     organization: "Professor, IIEST Shibpur",
     webpage: "https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity",
     image: process.env.PUBLIC_URL + "/images/drSantip.jpg"
-  },
+  }
+
+ 
 ];
+
+
+
 /*
+
+
 const speakersData = [
   {
     name: "Aanchal Malhotra",
@@ -85,7 +92,11 @@ const speakersData = [
     image: process.env.PUBLIC_URL + "/images/VincenzoP.png"
   }
 ];
+
 */
+
+
+
 
 const Speakers = () => {
   const [currentImage, setCurrentImage] = useState(0);

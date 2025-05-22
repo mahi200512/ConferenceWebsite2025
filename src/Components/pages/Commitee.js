@@ -55,6 +55,7 @@ const Committee = () => {
         </ul>
       </div>
       
+      
       <h2 className="committee-heading"> Committee</h2>
       <div className='Committees'>
       
