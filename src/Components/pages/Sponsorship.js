@@ -12,30 +12,13 @@ const bannerImages = [
 
 const Sponsorship = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  // const [visitorCount, setVisitorCount] = useState(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % bannerImages.length);
-    }, 5000); // Change every 5 seconds
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
-
-  // useEffect(() => {
-  //   fetch('https://api.countapi.xyz/hit/iciss2026/sponsorships')
-  //     .then(res => res.json())
-  //     .then(data => {
-  //       if (data && typeof data.value === 'number') {
-  //         setVisitorCount(data.value);
-  //       } else {
-  //         setVisitorCount('N/A');
-  //       }
-  //     })
-  //     .catch((error) => {
-  //       console.error('Visitor counter error:', error);
-  //       setVisitorCount('N/A');
-  //     });
-  // }, []);
 
   return (
     <div className="sponsorships-container">
@@ -45,50 +28,98 @@ const Sponsorship = () => {
           backgroundImage: `url(${bannerImages[currentImage]})`
         }}
       >
-              <div className="logo-left">
-                <Link to="/">
-                  <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
-                </Link>
-              </div>
-      
-              <div className="logo-right">
-                <Link to="/">
-                  <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
-                </Link>
-              </div>
-               
-            <h1 className="mainTitle-banner-title">
-            Second International Conference on Intelligent Systems and Security
-            <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
-            </h1>
-      
-            </div>
-      
-            <div className="scrolling-strip">
-              <ul className="scrolling-list">
-              <li><a href="/Schedule">📅 Conference Date: 14-16 January, 2026</a></li>
-              <li><a href="/Schedule">📅 Deadline:30th June, 2025</a></li>
-              <li><a href="/Schedule">📅 Conference Schedule</a></li>
-                <li><a href="/news">📰 Latest News</a></li>
-                <li><a href="/venue">📍 Venue Details</a></li>
-                <li><a href="/footer">📍 Quick Link</a></li>
-              </ul>
-            </div>
-            <p>
-                    ICISS 2026 seeks to promote the exchange of knowledge, breakthroughs, and practical solutions across academia and industry. By encouraging collaboration and knowledge-sharing among multidisciplinary communities, the conference aspires to drive innovation in intelligent systems and security. It will address current and emerging challenges, while exploring future opportunities in diverse application domains.
-      </p>
-      <h2>Scope</h2>
-      <p>
-        ICISS 2026 welcomes original contributions in the form of research papers, case studies, and industry presentations. The conference covers a broad spectrum of topics at the intersection of intelligent systems and security, and encourages submissions that employ multidisciplinary approaches. Contributions may span theoretical research, practical implementations, and novel case applications.
-      </p>
-      <h2>Publication and Indexing</h2>
-      <p>
-        All accepted and presented papers will be published in the Lecture Notes in Networks and Systems (LNNS) series (Approval Pending), which is indexed by SCOPUS, INSPEC, WTI Frankfurt EG, ZbMATH, SCImago, and Web of Science.
-      </p>
-      <h1 className='MainHeading'>About IIIT Naya Raipur</h1>
-      <p className="about-description">
-        Dr. Shyama Prasad Mukherjee International Institute of Information Technology, Naya Raipur (IIIT-NR) is established under the IIIT University Act, 2013 by the Government of Chhattisgarh. IIIT-NR is a joint venture between the Chhattisgarh State Government and NTPC. The institute is dedicated to excellence in education, research, and innovation in Information Technology and related fields. It emphasizes real-world problem solving, entrepreneurship, and interdisciplinary research through state-of-the-art labs and development centers. Located on a 50-acre lush green campus in the smart city of Naya Raipur, IIIT-NR offers a fully residential experience with Wi-Fi, CCTV, and excellent sports and recreational facilities. The institute currently offers three B.Tech. programs—in Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), and Data Science & Artificial Intelligence (DSAI).
-      </p>
+        <div className="logo-left">
+          <Link to="/">
+            <img src="/images/IIITNRlogo.png" alt="Logo1" className="logo" />
+          </Link>
+        </div>
+
+        <div className="logo-right">
+          <Link to="/">
+            <img src="/images/ICISS logo.png" alt="Logo2" className="logo" />
+          </Link>
+        </div>
+
+        <h1 className="mainTitle-banner-title">
+          Second International Conference on Intelligent Systems and Security
+          <h1 className="mainTitle-banner-title">(ICISS 2026)</h1>
+        </h1>
+      </div>
+
+      <div className="scrolling-strip">
+        <ul className="scrolling-list">
+          <li><a href="/Schedule">📅 Conference Date: 14-16 January, 2026</a></li>
+          <li><a href="/Schedule">📅 Deadline:30th June, 2025</a></li>
+          <li><a href="/Schedule">📅 Conference Schedule</a></li>
+          <li><a href="/news">📰 Latest News</a></li>
+          <li><a href="/venue">📍 Venue Details</a></li>
+          <li><a href="/footer">📍 Quick Link</a></li>
+        </ul>
+      </div>
+
+      <div className="sponsorship-table-section" style={{ padding: "2rem" }}>
+      <h1 className="MainHeading" style={{ textAlign: 'center' }}>ICISS 2026 Sponsorship Categories</h1>
+        <table className="sponsorship-table" style={{ width: '100%', borderCollapse: 'collapse' }}>
+          <thead>
+            <tr style={{ backgroundColor: '#f2f2f2' }}>
+              <th style={{ padding: '10px', border: '1px solid #ccc' }}>Sponsorship Level</th>
+              <th style={{ padding: '10px', border: '1px solid #ccc' }}>Contribution (INR / USD)</th>
+              <th style={{ padding: '10px', border: '1px solid #ccc' }}>Benefits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>🥇 Platinum Sponsor</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>₹5,00,000 / $6,000</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>
+                - Prime logo placement on website, banners & certificates<br />
+                - Full-page ad in the proceedings<br />
+                - 3 free delegate passes<br />
+                - Speaking opportunity<br />
+                - Booth space
+              </td>
+            </tr>
+            <tr>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>🥈 Gold Sponsor</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>₹3,00,000 / $3,600</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>
+                - Prominent logo on website & banners<br />
+                - Half-page ad in proceedings<br />
+                - 2 free delegate passes<br />
+                - Booth space
+              </td>
+            </tr>
+            <tr>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>🥉 Silver Sponsor</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>₹1,50,000 / $1,800</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>
+                - Logo on website & banners<br />
+                - Quarter-page ad in proceedings<br />
+                - 1 free delegate pass
+              </td>
+            </tr>
+            <tr>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>💼 Industry Partner</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>₹75,000 / $900</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>
+                - Logo on website<br />
+                - Mention in conference materials<br />
+                - Shared booth space
+              </td>
+            </tr>
+            <tr>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>📘 Academic Partner</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>₹50,000 / $600</td>
+              <td style={{ padding: '10px', border: '1px solid #ccc' }}>
+                - Logo on website<br />
+                - 1 free faculty/student registration
+              </td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

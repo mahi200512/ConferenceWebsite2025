@@ -12,30 +12,28 @@ const bannerImages = [
 const About = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [visitorCount, setVisitorCount] = useState(null);
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentImage((prev) => (prev + 1) % bannerImages.length);
-      }, 5000); // Change every 5 seconds
-    return () => clearInterval(interval);
-    }, []);
- useEffect(() => {
-  fetch('https://api.countapi.xyz/hit/iciss2026/homepage')
-    .then(res => res.json())
-    .then(data => {
-      console.log("Visitor API response:", data); // <-- ADD THIS
-      if (data && typeof data.value === 'number') {
-        setVisitorCount(data.value);
-      } else {
+
+
+  useEffect(() => {
+    fetch('https://api.countapi.xyz/update/iciss2026/homepage/?amount=1')
+      .then(res => res.json())
+      .then(data => {
+        if (data && typeof data.value === 'number') {
+          setVisitorCount(data.value);
+        } else {
+          console.warn('Unexpected CountAPI response:', data);
+          setVisitorCount('N/A');
+        }
+      })
+      .catch((error) => {
+        console.error('Visitor counter error:', error);
         setVisitorCount('N/A');
-      }
-    })
-    .catch((error) => {
-      console.error('Visitor counter error:', error);
-      setVisitorCount('N/A');
-    });
-}, []);
+      });
+  }, []);
 
       
+
+
   return (
     <div className="about-container">
         <div
