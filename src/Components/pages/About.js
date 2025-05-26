@@ -15,7 +15,8 @@ const About = () => {
 
 
   useEffect(() => {
-    fetch('https://api.countapi.xyz/update/iciss2026/homepage/?amount=1')
+    fetch('https://api.countapi.xyz/hit/iciss2026/homepage')
+
       .then(res => res.json())
       .then(data => {
         if (data && typeof data.value === 'number') {
@@ -30,7 +31,6 @@ const About = () => {
         setVisitorCount('N/A');
       });
   }, []);
-
       
 
 

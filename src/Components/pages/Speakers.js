@@ -12,22 +12,27 @@ const bannerImages = [
 
 const speakersData = [
   {
-    name: "Prof. Santi P. Maity",
-    organization: "Professor, IIEST Shibpur",
-    webpage: "https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity",
-    image: process.env.PUBLIC_URL + "/images/drSantip.jpg"
+    name: "Prof. Ajoy Kumar Ray",
+    organization: "Former Director, IIEST Shibpur",
+    webpage: "https://jisiasr.org/prof-ajoy-kumar-ray/#",
+    image: process.env.PUBLIC_URL + "/images/ajoy.jpg"
 
   },
- 
 
-  {
+ {
     name: "Prof. Om Prakash Vyas",
     organization: "Professor, IIIT Allahabad",
     webpage: "https://it.iiita.ac.in/?pg=facultypage&uid=opvyas",
     image: process.env.PUBLIC_URL + "/images/vyas.jpeg"
   },
 
- 
+  {
+    name: "Prof. Santi P. Maity",
+    organization: "Professor, IIEST Shibpur",
+    webpage: "https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity",
+    image: process.env.PUBLIC_URL + "/images/drSantip.jpg"
+
+  },
 
   
 
