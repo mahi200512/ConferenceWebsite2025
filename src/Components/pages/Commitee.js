@@ -59,13 +59,13 @@ const Committee = () => {
       <h2 className="committee-heading"> Committee</h2>
       <div className='Committees'>
       
-        <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur</p>
-        <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT Naya Raipur</p>
-        <p>Dr. Mithilesh K. Choube, IIIT Naya Raipur</p>
+        <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur, India</p>
+        <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT Naya Raipur, India</p>
+        <p>Dr. Mithilesh K. Choube, IIIT Naya Raipur, India</p>
         
         <h3>General Chair</h3>
-        <p>Satyanarayana Vollala, IIIT Naya Raipur</p>
-        <p>Santosh Kumar, IIIT Naya Raipur</p>
+        <p>Satyanarayana Vollala, IIIT Naya Raipur, India</p>
+        <p>Santosh Kumar, IIIT Naya Raipur, India</p>
 
         <h3>Program Chair(s)</h3>
         <p>Frank Dignum, Umea University, Umea, Sweden</p>
@@ -79,43 +79,43 @@ const Committee = () => {
         <p>Ruhul Amin, IIIT Naya Raipur, India</p>
 
         <h3>Organizing Chair</h3>
-        <p>Ruhul Amin, IIIT Naya Raipur</p>
+        <p>Ruhul Amin, IIIT Naya Raipur, India</p>
         <h3>Organizing Secretary</h3>
-        <p>Vinay Kumar, IIIT Naya Raipur</p>
+        <p>Vinay Kumar, IIIT Naya Raipur, india</p>
         
         <h3>Publicity Chair</h3>
-        <p>Mayukh Sarkar, NIT Jamshedpur</p>
-        <p>Goutham Alavalapati,  University of Illinois</p>
-        <p>Debasis Das, IIT Jodhpur</p>
-        <p>Karan Singh, JNU</p>
-        <p>Arijit Karati, NSYU</p>
+        <p>Mayukh Sarkar, NIT Jamshedpur, India</p>
+        <p>Goutham Alavalapati,  University of Illinois, India</p>
+        <p>Debasis Das, IIT Jodhpur, India</p>
+        <p>Karan Singh, JNU, India</p>
+        <p>Arijit Karati, NSYU, Taiwan</p>
        
        
         <h3>Sponsorship Committee</h3>
-        <p>Ruhul Amin, IIIT Naya Raipur</p>
+        <p>Ruhul Amin, IIIT Naya Raipur, India</p>
         
         <h3>Website Management Committee</h3>
-        <p>Abir Bhattacharya, IIIT Naya Raipur</p>
-        <p>Parvinder Singh, IIIT Naya Raipur</p>
-        <p>Thakur Mahima Nuruti, IIIT Naya Raipur</p>
-        <p>Anshumaan Karna, IIIT Naya Raipur</p>
+        <p>Abir Bhattacharya, IIIT Naya Raipur, India</p>
+        <p>Parvinder Singh, IIIT Naya Raipur, India</p>
+        <p>Thakur Mahima Nuruti, IIIT Naya Raipur, India</p>
+        <p>Anshumaan Karna, IIIT Naya Raipur, India</p>
         
         <h3>Local Organizing Committee</h3>
-        <p>Punya P. Paltani, IIIT Naya Raipur</p>
-<p>Shrivishal Tripathi, IIIT Naya Raipur</p>
-<p>Sresha Yadav, IIIT Naya Raipur</p>
-<p>Manoj Kumar Majumder, IIIT Naya Raipur</p>
-<p>Maifuz Ali, IIIT Naya Raipur</p>
-<p>Amit Kumar Agrawal, IIIT Naya Raipur</p>
-<p>Anurag Singh, IIIT Naya Raipur</p>
+        <p>Punya P. Paltani, IIIT Naya Raipur, India</p>
+<p>Shrivishal Tripathi, IIIT Naya Raipur, India</p>
+<p>Sresha Yadav, IIIT Naya Raipur, India</p>
+<p>Manoj Kumar Majumder, IIIT Naya Raipur, india</p>
+<p>Maifuz Ali, IIIT Naya Raipur, India</p>
+<p>Amit Kumar Agrawal, IIIT Naya Raipur, India</p>
+<p>Anurag Singh, IIIT Naya Raipur, India</p>
 <p>Ramakrishna Bandi, IIIT Naya Raipur</p>
-<p>Vijaya J, IIIT Naya Raipur</p>
-<p>Lakhindar Murmu, IIIT Naya Raipur</p>
-<p>Deepika Gupta, IIIT Naya Raipur</p>
-<p>Avantika Singh, IIIT Naya Raipur</p>
-<p>Abhishek Sharma, IIIT Naya Raipur</p>
-<p>Shailesh Khapre, IIIT Naya Raipur</p>
-<p>Bipin Chandra Mandi, IIIT Naya Raipur</p>
+<p>Vijaya J, IIIT Naya Raipur, India</p>
+<p>Lakhindar Murmu, IIIT Naya Raipur, India</p>
+<p>Deepika Gupta, IIIT Naya Raipur, India</p>
+<p>Avantika Singh, IIIT Naya Raipur, India</p>
+<p>Abhishek Sharma, IIIT Naya Raipur, India</p>
+<p>Shailesh Khapre, IIIT Naya Raipur, India</p>
+<p>Bipin Chandra Mandi, IIIT Naya Raipur, India</p>
 
         </div><div className='com1'><h3>Technical Program Committee</h3>
         <p>Abhisekh Das, Alia University, India</p>
@@ -130,7 +130,6 @@ const Committee = () => {
   <p>Dhreendra Mishra, MANIT Bhopal, India</p>
   <p>Gopa Bhaumik, NIT Jamshedpur, India</p>
   <p>Kinsuk Giri, NITTTR Kolkata, India</p>
-  <p>Mayukh Sarkar, NIT Jamshedpur, India</p>
   <p>Md Azharuddin, Alia University, India</p>
   <p>Mohd Shameem, KFUPM, Saudi Arabia</p>
   <p>Mohammad Abdussami, SRM University, India</p>
