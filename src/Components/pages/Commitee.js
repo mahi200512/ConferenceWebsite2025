@@ -68,15 +68,17 @@ const Committee = () => {
         <p>Santosh Kumar, IIIT Naya Raipur, India</p>
 
         <h3>Program Chair(s)</h3>
-        <p>Frank Dignum, Umea University, Umea, Sweden</p>
-        <p>Debasis Giri, MAKAUT, India</p>
-        <p>Sangram Ray, NIT Sikkim, India</p>
-        <p>Sanasam Ranbir Singh, IIT Guwahati, India</p>
-        <p>Arup Kumar Pal, IIT(ISM) Dhanbad, India</p>
+<p><a href="https://www.umu.se/en/staff/frank-dignum/" target="_blank" rel="noopener noreferrer">Frank Dignum</a>, Umea University, Umea, Sweden</p>
+<p><a href="https://debasisgiri.in/" target="_blank" rel="noopener noreferrer">Debasis Giri</a>, MAKAUT, WB, India</p>
+<p><a href="https://nitsikkim.ac.in/cse/profile.php?sn=62" target="_blank" rel="noopener noreferrer">Sangram Ray</a>, NIT Sikkim, India</p>
+ <p><a href="https://fac.iitg.ac.in/ranbir/" target="_blank" rel="noopener noreferrer">Sanasam Ranbir Singh</a>, IIT Guwahati, India</p>
+ <p><a href="https://www.iitism.ac.in/faculty-details?faculty=arupkrpal" target="_blank" rel="noopener noreferrer">Arup Kumar Pal</a>, IIT(ISM) Dhanbad, India</p>       
+        
 
         <h3>Publication  Chair</h3>
-        <p>Shyamalendu Kandar, IIEST Shibpur, India</p>
-        <p>Ruhul Amin, IIIT Naya Raipur, India</p>
+<p><a href="https://www.iiests.ac.in/IIEST/Faculty/it-shyamalenduk" target="_blank" rel="noopener noreferrer">Shyamalendu Kandar</a>, IIEST Shibpur, India</p>
+<p><a href="https://www.iiitnr.ac.in/node/3299" target="_blank" rel="noopener noreferrer">Ruhul Amin</a>, IIIT Naya Raipur, India</p>
+  
 
         <h3>Organizing Chair</h3>
         <p>Ruhul Amin, IIIT Naya Raipur, India</p>
@@ -159,8 +161,9 @@ const Committee = () => {
   <p>Ashok Kumar Pradhan, SRM-AP, India</p>
        
         <h3>Advisory Committee</h3>
-        <p>Rajkumar Buyya, University of Melbourne, Australia</p>
-        <p>Vincenzo Puri, University of Milan, Italy</p>
+<p><a href="http://www.buyya.com/" target="_blank" rel="noopener noreferrer">Rajkumar Buyya</a>, University of Melbourne, Australia</p>
+ <p><a href="https://piuri.di.unimi.it/index.php?pageid=home" target="_blank" rel="noopener noreferrer">Vincenzo Puri</a>, University of Milan, Italy</p>       
+
         <p>Youngho Park, Kyungpook National University, Daegu, South Korea.</p>
         <p>Mohammad S. Obaidat,  University of Jordan, Amman, Jordan</p>
         <p>Sukumar Nandi, IIT Guwahati, India</p>
