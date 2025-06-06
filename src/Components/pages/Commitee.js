@@ -68,14 +68,15 @@ const Committee = () => {
         <p>Santosh Kumar, IIIT Naya Raipur</p>
 
         <h3>Program Chair(s)</h3>
-        <p>Debasis Giri, MAKAUT</p>
-        <p>Sangram Ray, NIT Sikkim</p>
-        <p>Sanasam Ranbir Singh, IIT Guwahati</p>
-        <p>Arup Kumar Pal, IIT(ISM) Dhanbad</p>
+        <p>Frank Dignum, Umea University, Umea, Sweden</p>
+        <p>Debasis Giri, MAKAUT, India</p>
+        <p>Sangram Ray, NIT Sikkim, India</p>
+        <p>Sanasam Ranbir Singh, IIT Guwahati, India</p>
+        <p>Arup Kumar Pal, IIT(ISM) Dhanbad, India</p>
 
         <h3>Publication  Chair</h3>
-        <p>Shyamalendu Kandar, IIEST Shibpur</p>
-        <p>Ruhul Amin, IIIT Naya Raipur</p>
+        <p>Shyamalendu Kandar, IIEST Shibpur, India</p>
+        <p>Ruhul Amin, IIIT Naya Raipur, India</p>
 
         <h3>Organizing Chair</h3>
         <p>Ruhul Amin, IIIT Naya Raipur</p>
@@ -157,7 +158,12 @@ const Committee = () => {
   <p>Venkanna U, NIT Warangal, India</p>
   <p>Venkatasamy Sureshkumar, PSG College of Technology, India</p>
   <p>Ashok Kumar Pradhan, SRM-AP, India</p>
+       
         <h3>Advisory Committee</h3>
+        <p>Rajkumar Buyya, University of Melbourne, Australia</p>
+        <p>Vincenzo Puri, University of Milan, Italy</p>
+        <p>Youngho Park, Kyungpook National University, Daegu, South Korea.</p>
+        <p>Mohammad S. Obaidat,  University of Jordan, Amman, Jordan</p>
         <p>Sukumar Nandi, IIT Guwahati, India</p>
         <p>Rajarshi Mahapatra, IIIT Naya Raipur</p>
         <p>Muhammad Khurram Khan, King Saud University, Saudi Arabia</p>
