@@ -34,6 +34,14 @@ const speakersData = [
 
   },
 
+  {
+    name: "Prof. Sriparna Saha",
+    organization: "Professor, IIT Patna",
+    webpage: "https://www.iitp.ac.in/~sriparna/",
+    image: process.env.PUBLIC_URL + "/images/sriparna.jpeg"
+
+  },
+
   
 
 ];
