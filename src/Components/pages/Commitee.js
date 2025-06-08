@@ -163,19 +163,27 @@ const Committee = () => {
         <h3>Advisory Committee</h3>
 <p><a href="http://www.buyya.com/" target="_blank" rel="noopener noreferrer">Rajkumar Buyya</a>, University of Melbourne, Australia</p>
  <p><a href="https://piuri.di.unimi.it/index.php?pageid=home" target="_blank" rel="noopener noreferrer">Vincenzo Puri</a>, University of Milan, Italy</p>       
+<p><a href="https://see.knu.ac.kr/mobile/english/content/profile_eng.html?id=174" target="_blank" rel="noopener noreferrer">Youngho Park</a>, Kyungpook National University, Daegu, South Korea.</p>
+<p><a href="https://www.theobaidat.com/" target="_blank" rel="noopener noreferrer">Mohammad S. Obaidat</a>, University of Jordan, Amman, Jordan</p>
 
-        <p>Youngho Park, Kyungpook National University, Daegu, South Korea.</p>
-        <p>Mohammad S. Obaidat,  University of Jordan, Amman, Jordan</p>
-        <p>Sukumar Nandi, IIT Guwahati, India</p>
-        <p>Rajarshi Mahapatra, IIIT Naya Raipur</p>
-        <p>Muhammad Khurram Khan, King Saud University, Saudi Arabia</p>
-        <p>D. A. Khan, NIT Jamshedpur, India</p>
-        <p>Kim-Kwang Raymond Choo, University of Texas, USA</p>
-        <p>Debiao He, Wuhan University, China</p>
-        <p>Ashok Kumar Das, IIIT Hyderabad, India</p>
-        <p>Chiranjeev Kumar, IIT(ISM) Dhanbad, India</p>
-        <p>Santosh Biswas, IIT Bhilai, India</p>
-        <p>Archana Sharma, IIIT Naya Raipur, India</p>
+<p><a href="https://www.iitg.ac.in/sukumar/" target="_blank" rel="noopener noreferrer">Sukumar Nandi</a>, IIT Guwahati, India</p>
+
+<p><a href="https://www.iiitnr.ac.in/content/rajarshi-mahapatra" target="_blank" rel="noopener noreferrer">Rajarshi Mahapatra</a>, IIIT Naya Raipur, India</p>
+
+<p><a href="https://faculty.ksu.edu.sa/en/mkhurram" target="_blank" rel="noopener noreferrer">Muhammad Khurram Khan</a>, King Saud University, Saudi Arabia</p>
+
+<p><a href="https://www.nitjsr.ac.in/people/profile/CA104" target="_blank" rel="noopener noreferrer">D.A. Khan</a>, NIT Jamshedpur, India</p>
+
+<p><a href="https://www.utsa.edu/endowed/profiles/cloud-technology-iii.html" target="_blank" rel="noopener noreferrer">Kim-Kwang Raymond Choo</a>, University of Texas, USA</p>
+
+<p><a href="https://jszy.whu.edu.cn/hedebiao/en/index.htm" target="_blank" rel="noopener noreferrer">Debiao He</a>, Wuhan University, China</p>
+
+<p><a href="https://sites.google.com/view/iitkgpakdas/" target="_blank" rel="noopener noreferrer">Ashok Kumar Das</a>, IIIT Hyderabad, India</p>
+<p><a href="https://people.iitism.ac.in/~chiranjeev/" target="_blank" rel="noopener noreferrer">Chiranjeev Kumar</a>, IIT(ISM) Dhanbad, India</p>
+
+<p><a href="https://www.iitbhilai.ac.in/index.php?pid=santosh" target="_blank" rel="noopener noreferrer">Santosh Biswas</a>, IIT Bhilai, India</p>
+
+   
 
         
         </div>
