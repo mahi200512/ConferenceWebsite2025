@@ -121,66 +121,60 @@ const Committee = () => {
 
         </div><div className='com1'><h3>Technical Program Committee</h3>
         <p>Abhisekh Das, Alia University, India</p>
-  <p>Alekha Kumar Mishra, NIT Jamshedpur, India</p>
-  <p>Alavalapati Goutham Reddy, University of Illinois, USA</p>
-  <p>Alawi A. Al-saggaf, KFUPM, Saudi Arabia</p>
-  <p>Bimal Kumar Meher, Silicon University, India</p>
-  <p>Cheng-Chi Lee, Fu Jen Catholic University, Taiwan</p>
-  <p>Chien-Ming Chen, Shandong University of Science and Technology, China</p>
-  <p>Debanjan Das, IIT Kharagpur, India</p>
-  <p>Debiao He, Wuhan University, China</p>
-  <p>Dhreendra Mishra, MANIT Bhopal, India</p>
-  <p>Gopa Bhaumik, NIT Jamshedpur, India</p>
-  <p>Kinsuk Giri, NITTTR Kolkata, India</p>
-  <p>Md Azharuddin, Alia University, India</p>
-  <p>Mohd Shameem, KFUPM, Saudi Arabia</p>
-  <p>Mohammad Abdussami, SRM University, India</p>
-  <p>Mohammad Shariq, United Arab Emirates University, UAE</p>
-  <p>Mou Dasgupta, NIT Raipur, India</p>
-  <p>M. Brindha, NIT Trichy, India</p>
-  <p>Naeem Ahmad, NIT Raipur, India</p>
-  <p>Neetesh Saxena, Georgia Institute of Technology, Atlanta, USA</p>
-  <p>Neha Agrawal, IIIT Sri City, India</p>
-  <p>Nitin Gupta, NIT Hamirpur, India</p>
-  <p>Odelu Vanga, IIIT Chittoor, India</p>
-  <p>Ponnuru Raveendra Babu, Virginia Military Institute & Virginia Tech, USA</p>
-  <p>Preeti Chandrakar, NIT Raipur, India</p>
-  <p>Prasanto Gope, University of Sheffield, UK</p>
-  <p>Rifaqat Ali, NIT Hamirpur, India</p>
-  <p>Rohit Kumar, Shiv Nadar University, India</p>
-  <p>Saiyed Umer, Alia University, India</p>
-  <p>Sanjeev Kumar Dwivedi, MITS Gwalior, India</p>
-  <p>Shehzad Ashraf Chaudhry, Abu Dhabi University</p>
-  <p>SK Haifzul Islam, IIIT Kalyani, India</p>
-  <p>Sukhpal Singh Gill, Queen Mary University of London, UK</p>
-  <p>Subrata Dutta, NIT Jamshedpur, India</p>
-  <p>Taher Al-Shehari, King Saud University, Saudi Arabia</p>
-  <p>Tanmoy Maitra, KIIT Bhubaneshwar, India</p>
-  <p>Venkanna U, NIT Warangal, India</p>
-  <p>Venkatasamy Sureshkumar, PSG College of Technology, India</p>
-  <p>Ashok Kumar Pradhan, SRM-AP, India</p>
-  <p>Chun-Ta Li, Fu Jen Catholic University, Taiwan</p>
-  <p>Francesco Betti Sorbelli,	University of Perugia, Italy</p>
-  <p>Fagen Li, University of Electronic Science and Technology of China, China</p>
-  <p>Khan Wahid,	University of Saskatchewan, Canada</p>
-  <p>Satyaki Roy,	University of Alabama in Huntsville, USA</p>
-  <p>Shameek Bhattacharjee,	Western Michigan University, Kalamazoo,  USA</p>
-  <p>Sakurai Kouichi, Kyushu University, Fukuoka, Japan</p>
-  <p>Arijit Karati, National Sun Yat-sen University, Taiwan</p>
-  <p>Sherali Zeadally,	University of Kentucky, USA</p>
-  <p>YoungHo Park,	Kyungpook National University, Korea</p>
-  <p>Yousaf Bin Zikria,	Victorian Institute of Technology, Sydney, Australia</p>
-  <p>Frank Dignum, Umea University, Umea, Sweden</p>
-  <p>Debasis Giri, MAKAUT, WB, India</p>
-  <p>Sangram Ray, NIT Sikkim, India</p>
-  <p>Sanasam Ranbir Singh, IIT Guwahati, India</p>
-  <p>Arup Kumar Pal, IIT(ISM) Dhanbad, India</p>
-  <p>Sedat Akleylek	Istinye University, İstanbul, Turkey</p>
-  <p>Muhammad Naveed Aman,	University of Nebraska-Lincoln, USA</p>
-  <p>Mohammed H. Alsharif	Sejong University, South Korea</p>
-  <p>Ruhul Amin, IIIT Naya Raipur, India</p>
-  <p>Ashok Kumar Das, IIIT Hayderabad, India</p>
-  <p>Shyamalendu Kandar, IIEST Shibpur, India</p>
+<p>Alekha Kumar Mishra, NIT Jamshedpur, India</p>
+<p>Alavalapati Goutham Reddy, University of Illinois, USA</p>
+<p>Alawi A. Al-saggaf, KFUPM, Saudi Arabia</p>
+<p>Arijit Karati, National Sun Yat-sen University, Taiwan</p>
+<p>Arup Kumar Pal, IIT(ISM) Dhanbad, India</p>
+<p>Ashok Kumar Das, IIIT Hayderabad, India</p>
+<p>Ashok Kumar Pradhan, SRM-AP, India</p>
+<p>Bimal Kumar Meher, Silicon University, India</p>
+<p>Cheng-Chi Lee, Fu Jen Catholic University, Taiwan</p>
+<p>Chien-Ming Chen, Shandong University of Science and Technology, China</p>
+<p>Chun-Ta Li, Fu Jen Catholic University, Taiwan</p>
+<p>Debanjan Das, IIT Kharagpur, India</p>
+<p>Debasis Giri, MAKAUT, WB, India</p>
+<p>Debiao He, Wuhan University, China</p>
+<p>Dhreendra Mishra, MANIT Bhopal, India</p>
+<p>Fagen Li, University of Electronic Science and Technology of China, China</p>
+<p>Francesco Betti Sorbelli, University of Perugia, Italy</p>
+<p>Frank Dignum, Umea University, Umea, Sweden</p>
+<p>Gopa Bhaumik, NIT Jamshedpur, India</p>
+<p>Khan Wahid, University of Saskatchewan, Canada</p>
+<p>Kinsuk Giri, NITTTR Kolkata, India</p>
+<p>Md Azharuddin, Alia University, India</p>
+<p>M. Brindha, NIT Trichy, India</p>
+<p>Mohammed H. Alsharif, Sejong University, South Korea</p>
+<p>Mohammad Abdussami, SRM University, India</p>
+<p>Mohammad Shariq, United Arab Emirates University, UAE</p>
+<p>Mohd Shameem, KFUPM, Saudi Arabia</p>
+<p>Mou Dasgupta, NIT Raipur, India</p>
+<p>Muhammad Naveed Aman, University of Nebraska-Lincoln, USA</p>
+<p>Naeem Ahmad, NIT Raipur, India</p>
+<p>Neetesh Saxena, Georgia Institute of Technology, Atlanta, USA</p>
+<p>Neha Agrawal, IIIT Sri City, India</p>
+<p>Nitin Gupta, NIT Hamirpur, India</p>
+<p>Odelu Vanga, IIIT Chittoor, India</p>
+<p>Ponnuru Raveendra Babu, Virginia Military Institute & Virginia Tech, USA</p>
+<p>Preeti Chandrakar, NIT Raipur, India</p>
+<p>Prasanto Gope, University of Sheffield, UK</p>
+<p>Rifaqat Ali, NIT Hamirpur, India</p>
+<p>Rohit Kumar, Shiv Nadar University, India</p>
+<p>Ruhul Amin, IIIT Naya Raipur, India</p>
+<p>Saiyed Umer, Alia University, India</p>
+<p>Sakurai Kouichi, Kyushu University, Fukuoka, Japan</p>
+<p>Sanasam Ranbir Singh, IIT Guwahati, India</p>
+<p>Sanjeev Kumar Dwivedi, MITS Gwalior, India</p>
+<p>Sangram Ray, NIT Sikkim, India</p>
+<p>Satyaki Roy, University of Alabama in Huntsville, USA</p>
+<p>Sedat Akleylek, Istinye University, İstanbul, Turkey</p>
+<p>Shehzad Ashraf Chaudhry, Abu Dhabi University</p>
+<p>Shameek Bhattacharjee, Western Michigan University, Kalamazoo, USA</p>
+<p>Sherali Zeadally, University of Kentucky, USA</p>
+<p>Shyamalendu Kandar, IIEST Shibpur, India</p>
+<p>SK Haifzul Islam, IIIT Kalyani, India</p>
+<p>Subrata Dutta, NIT Jamshedpur, India</p>
+<p>Sukhpal Singh Gill, Queen Mary University of Lond</p>
 
 
 
