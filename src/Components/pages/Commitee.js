@@ -159,6 +159,33 @@ const Committee = () => {
   <p>Venkanna U, NIT Warangal, India</p>
   <p>Venkatasamy Sureshkumar, PSG College of Technology, India</p>
   <p>Ashok Kumar Pradhan, SRM-AP, India</p>
+  <p>Chun-Ta Li, Fu Jen Catholic University, Taiwan</p>
+  <p>Francesco Betti Sorbelli,	University of Perugia, Italy</p>
+  <p>Fagen Li, University of Electronic Science and Technology of China, China</p>
+  <p>Khan Wahid,	University of Saskatchewan, Canada</p>
+  <p>Satyaki Roy,	University of Alabama in Huntsville, USA</p>
+  <p>Shameek Bhattacharjee,	Western Michigan University, Kalamazoo,  USA</p>
+  <p>Sakurai Kouichi, Kyushu University, Fukuoka, Japan</p>
+  <p>Arijit Karati, National Sun Yat-sen University, Taiwan</p>
+  <p>Sherali Zeadally,	University of Kentucky, USA</p>
+  <p>YoungHo Park,	Kyungpook National University, Korea</p>
+  <p>Yousaf Bin Zikria,	Victorian Institute of Technology, Sydney, Australia</p>
+  <p>Frank Dignum, Umea University, Umea, Sweden</p>
+  <p>Debasis Giri, MAKAUT, WB, India</p>
+  <p>Sangram Ray, NIT Sikkim, India</p>
+  <p>Sanasam Ranbir Singh, IIT Guwahati, India</p>
+  <p>Arup Kumar Pal, IIT(ISM) Dhanbad, India</p>
+  <p>Sedat Akleylek	Istinye University, İstanbul, Turkey</p>
+  <p>Muhammad Naveed Aman,	University of Nebraska-Lincoln, USA</p>
+  <p>Mohammed H. Alsharif	Sejong University, South Korea</p>
+  <p>Ruhul Amin, IIIT Naya Raipur, India</p>
+  <p>Ashok Kumar Das, IIIT Hayderabad, India</p>
+  <p>Shyamalendu Kandar, IIEST Shibpur, India</p>
+
+
+
+
+
        
         <h3>Advisory Committee</h3>
 <p><a href="http://www.buyya.com/" target="_blank" rel="noopener noreferrer">Rajkumar Buyya</a>, University of Melbourne, Australia</p>
