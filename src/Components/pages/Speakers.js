@@ -19,6 +19,14 @@ const speakersData = [
 
   },
 
+    {
+    name: "Prof. Sandeep Shukla",
+    organization: "Professor, IIT Kanpur",
+    webpage: "https://www.iitk.ac.in/new/sandeep-k-shukla",
+    image: process.env.PUBLIC_URL + "/images/Prof_Sandeep_Shukla.jpg"
+
+  },
+
  {
     name: "Prof. Om Prakash Vyas",
     organization: "Professor, IIIT Allahabad",
