@@ -44,6 +44,7 @@ useEffect(() => {
           <p><Link to="/registrations">Registration</Link></p>
           <p><Link to="/venue">Venue</Link></p>
           <p><Link to="/schedule">Submission Deadline</Link></p>
+           <li><a href="https://link.springer.com/book/9789819642724">Proceeding of ICISS 2024</a></li>
         </div>
 
         <div className="footer-section">
