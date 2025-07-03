@@ -49,7 +49,7 @@ const Venue = () => {
       <div className="scrolling-strip">
         <ul className="scrolling-list">
         <li><a href="/Schedule">📅 Conference Date: 14-16 January, 2026</a></li>
-        <li><a href="/Schedule">📅 Deadline:30th June, 2025</a></li>
+        <li><a href="/Schedule">📅 Deadline:14th August, 2025</a></li>
         <li><a href="/Schedule">📅 Conference Schedule</a></li>
           <li><a href="/news">📰 Latest News</a></li>
           <li><a href="/venue">📍 Venue Details</a></li>

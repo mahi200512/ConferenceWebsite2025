@@ -48,7 +48,7 @@ useEffect(() => {
 
         <div className="footer-section">
           <h3>Important Dates</h3>
-          <p>Paper Submission Deadline: 30 June 2025</p>
+          <p>Submission Deadline: 14th August, 2025</p>
           <p>Acceptance Notification: 1st October 2025</p>
           <p>Camera Ready Due: 25th October 2025</p>
           <p>Registration Deadline: 5th November 2025</p>
