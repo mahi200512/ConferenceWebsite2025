@@ -82,7 +82,15 @@ const About = () => {
       <h1 className='MainHeading'>International Conference on Intelligent Systems and Security (ICISS 2026)</h1>
       <p className="about-description" data-aos="fade-right">
       
-      <p><b>Proceeding of ICISS 2024:</b> <a href="https://link.springer.com/book/9789819642724"> ICISS 2024 Proceeding</a></p>
+      <p style={{ textAlign: "center" }}>
+        <a
+          href="https://link.springer.com/book/9789819642724"
+          style={{ color: "red", textDecoration: "none" }}
+        >
+          Proceedings of ICISS 2024 
+        </a>
+      </p>
+
       <p>The International Conference on Intelligent Systems and Security (ICISS 2026) aims to bring together leading researchers, industry professionals, and practitioners from around the globe to share insights, foster collaboration, and explore advancements in the fields of intelligent systems and security. This premier event offers a dynamic platform for networking, knowledge exchange, and the development of innovative ideas and future partnerships.</p>
 
 <p><b>Conference Aim:</b><br/>
