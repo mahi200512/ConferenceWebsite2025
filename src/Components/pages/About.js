@@ -87,7 +87,7 @@ const About = () => {
           href="https://link.springer.com/book/9789819642724"
           style={{ color: "red", textDecoration: "none" }}
         >
-          Proceedings of ICISS 2024 
+          Proceedings of ICISS 2024 (Published)
         </a>
       </p>
 

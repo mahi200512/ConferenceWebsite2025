@@ -60,26 +60,27 @@ const Committee = () => {
       <h2 className="committee-heading"> Committee</h2>
       <div className='Committees'>
       
-        <div className='com1'><h3>Chief-Patron</h3><p>Shri S. Bharathi Dasan, Director (I/C), IIIT-Naya Raipur, India</p>
+        <div className='com1'><h3>Chief-Patron</h3><p>Prof. Om Prakash Vyas, Director, IIIT-Naya Raipur, India</p>
         <h3>Patron(s)</h3><p>Dr. Srinivasa K.G. IIIT Naya Raipur, India</p>
         <p>Dr. Mithilesh K. Choube, IIIT Naya Raipur, India</p>
         
         <h3>General Chair</h3>
         <p>Satyanarayana Vollala, IIIT Naya Raipur, India</p>
         <p>Santosh Kumar, IIIT Naya Raipur, India</p>
+        <p>Arup Kumar Pal, IIT(ISM) Dhanbad, India</p>
 
+       
         <h3>Program Chair(s)</h3>
 <p><a href="https://www.umu.se/en/staff/frank-dignum/" target="_blank" rel="noopener noreferrer">Frank Dignum</a>, Umea University, Umea, Sweden</p>
 <p><a href="https://debasisgiri.in/" target="_blank" rel="noopener noreferrer">Debasis Giri</a>, MAKAUT, WB, India</p>
 <p><a href="https://nitsikkim.ac.in/cse/profile.php?sn=62" target="_blank" rel="noopener noreferrer">Sangram Ray</a>, NIT Sikkim, India</p>
  <p><a href="https://fac.iitg.ac.in/ranbir/" target="_blank" rel="noopener noreferrer">Sanasam Ranbir Singh</a>, IIT Guwahati, India</p>
- <p><a href="https://www.iitism.ac.in/faculty-details?faculty=arupkrpal" target="_blank" rel="noopener noreferrer">Arup Kumar Pal</a>, IIT(ISM) Dhanbad, India</p>       
+        
         
 
         <h3>Publication  Chair</h3>
 <p><a href="https://www.iiests.ac.in/IIEST/Faculty/it-shyamalenduk" target="_blank" rel="noopener noreferrer">Shyamalendu Kandar</a>, IIEST Shibpur, India</p>
-<p><a href="https://www.iiitnr.ac.in/node/3299" target="_blank" rel="noopener noreferrer">Ruhul Amin</a>, IIIT Naya Raipur, India</p>
-  
+
 
         <h3>Organizing Chair</h3>
         <p>Ruhul Amin, IIIT Naya Raipur, India</p>
