@@ -50,7 +50,13 @@ const speakersData = [
 
   },
 
-  
+  {
+    name: "********",
+    organization: "More speakers will be added soon.",
+    //webpage: "More speakers will be added soon.",
+    //image: process.env.PUBLIC_URL + "/images/sriparna.jpeg"
+
+  },
 
 ];
 

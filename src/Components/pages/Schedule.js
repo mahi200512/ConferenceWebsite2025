@@ -9,8 +9,8 @@ const bannerImages = [
   '/images/IIITNRNightImage.jpeg'
 ];
 export const importantDates = [
-  { event: "Paper Submission Deadline", date: "30th June 2025", closed: true },
-  { event: "Paper Submission Deadline (Extended)", date: "14th August 2025", highlight: true },
+  { event: "Paper Submission Deadline", date: "14th August 2025" },
+  //{ event: "Paper Submission Deadline (Extended)", date: "14th August 2025", highlight: true },
   { event: "Acceptance Notification", date: "1st October 2025" },
   { event: "Camera Ready Paper Submission", date: "25th October 2025" },
   { event: "Registration Deadline", date: "5th November 2025" },
