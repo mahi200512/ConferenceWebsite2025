@@ -91,6 +91,15 @@ const About = () => {
         </a>
       </p>
 
+      <p style={{ textAlign: "right" }}>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf65qagWyCfYzKd9yapTuGvBjwdr7yWCVlV62BbDD2vnMNWtQ/viewform?usp=preview"
+          style={{ color: "red", textDecoration: "none" }}
+        >
+          <b>Call for Reviewers</b>
+        </a>
+      </p>
+
       <p>The International Conference on Intelligent Systems and Security (ICISS 2026) aims to bring together leading researchers, industry professionals, and practitioners from around the globe to share insights, foster collaboration, and explore advancements in the fields of intelligent systems and security. This premier event offers a dynamic platform for networking, knowledge exchange, and the development of innovative ideas and future partnerships.</p>
 
 <p><b>Conference Aim:</b><br/>
