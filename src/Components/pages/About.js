@@ -100,6 +100,16 @@ const About = () => {
         </a>
       </p>
 
+
+      <p style={{ textAlign: "left" }}>
+        <a
+          href="https://link.springer.com/series/15179"
+          style={{ color: "red", textDecoration: "none" }}
+        >
+          <b>Proposal of ICISS2026 is Approved</b>
+        </a>
+      </p>
+
       <p>The International Conference on Intelligent Systems and Security (ICISS 2026) aims to bring together leading researchers, industry professionals, and practitioners from around the globe to share insights, foster collaboration, and explore advancements in the fields of intelligent systems and security. This premier event offers a dynamic platform for networking, knowledge exchange, and the development of innovative ideas and future partnerships.</p>
 
 <p><b>Conference Aim:</b><br/>

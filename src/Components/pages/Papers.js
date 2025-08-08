@@ -73,7 +73,7 @@ const Papers = () => {
 
         <h4>ICISS 2026 Conference Highlights:</h4>
         <ul className="highlights-list">
-          <li>All accepted and presented papers will be published by Springer (waiting for approval)</li>
+          <li>All accepted and presented papers will be published by Springer (Proposal Accepted)</li>
           <li>Connect with leading researchers, industry experts, and practitioners from around the world.</li>
           <li>Participation certificate will be issued to all the registered participants.</li>
           <li>Best Paper Awards will be given in each track.</li>
