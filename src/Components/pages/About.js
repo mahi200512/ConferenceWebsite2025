@@ -106,7 +106,7 @@ const About = () => {
           href="https://link.springer.com/series/15179"
           style={{ color: "red", textDecoration: "none" }}
         >
-          <b>Proposal of ICISS2026 is Approved</b>
+          <b>Proposal of ICISS2026 is Approved (Click here for details)</b>
         </a>
       </p>
 
