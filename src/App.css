@@ -1637,3 +1637,27 @@ Banner
   color: red;
   font-weight: bold;
 }
+.dates-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.round-section {
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa; /* light background to soften */
+  font-size: 0.9rem;          /* smaller than normal text */
+  box-shadow: 0 0 4px rgba(0,0,0,0.05); /* very subtle shadow */
+}
+
+.round-section h3 {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.important-dates-table td {
+  padding: 6px 10px;
+}

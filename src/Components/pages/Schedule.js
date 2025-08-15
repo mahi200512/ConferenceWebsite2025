@@ -2,15 +2,24 @@
 import React, { useState, useEffect } from 'react';
 import "../../App.css";
 import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
 const bannerImages = [
   '/images/IIITNRRR.png',
   '/images/IIITNRTTopView.png',
   '/images/IIITNRFrontDroneView.png',
   '/images/IIITNRNightImage.jpeg'
 ];
-export const importantDates = [
-  { event: "Paper Submission Deadline", date: "14th August 2025" },
-  //{ event: "Paper Submission Deadline (Extended)", date: "14th August 2025", highlight: true },
+
+const round2Dates = [
+  { event: "Paper Submission Deadline", date: "31st August 2025", highlight: true },
+  { event: "Acceptance Notification", date: "1st October 2025" },
+  { event: "Camera Ready Paper Submission", date: "25th October 2025" },
+  { event: "Registration Deadline", date: "5th November 2025" },
+  { event: "Conference Date", date: "14-16 January, 2026" }
+];
+
+const round1Dates = [
+  { event: "Paper Submission Deadline", date: "14th August 2025", softHighlight: true },
   { event: "Acceptance Notification", date: "1st October 2025" },
   { event: "Camera Ready Paper Submission", date: "25th October 2025" },
   { event: "Registration Deadline", date: "5th November 2025" },
@@ -32,6 +41,34 @@ const Schedule = () => {
     }, []);
 
 
+  const renderDates = (title, dates, status) => (
+    <motion.div
+  className={`round-section ${status}`}
+  initial={{ opacity: 0, scale: status === "active" ? 0.9 : 0.95 }}
+  animate={{ opacity: 1, scale: status === "active" ? 1.05 : 0.95 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+>
+      <h3>{title}</h3>
+      <table className="important-dates-table">
+        <tbody>
+          {dates.map((d, i) => (
+            <tr key={i}>
+              <td>{d.event}</td>
+              <td>
+                {d.highlight ? (
+                  <span style={{ color: 'red', fontWeight: 'bold' }}>{d.date}</span>
+                ) : d.softHighlight ? (
+                  <span style={{ color: 'orange', fontWeight: 'bold' }}>{d.date}</span>
+                ) : (
+                  d.date
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </motion.div>
+  );
   return (
     <div className="schedule-container">
         <div
@@ -70,39 +107,28 @@ const Schedule = () => {
           <li><a href="/footer">📍 Quick Link</a></li>
         </ul>
       </div>
-      
-      <h2 className="committee-heading"style={{ color: '#0021f3' }}>Important Dates</h2>
-      
-      {/* Important Dates List */}
-      <div className="important-dates-section" id="important-dates">
-        
-        <table className="important-dates-table">
-          <tbody>
-  {importantDates.map((date, index) => (
-    <tr key={index}>
-      <td className="event-name">
-        {date.event}
-      </td>
-      <td className="event-date">
-        {date.closed ? (
-          <span>
-            <s>{date.date}</s> (Closed)
-          </span>
-        ) : date.highlight ? (
-          <span style={{ color: "red", fontWeight: "bold" }}>
-            {date.date}
-          </span>
-        ) : (
-          date.date
-        )}
-      </td>
-    </tr>
-  ))}
-</tbody>
-        </table>
+       <div style={{ marginTop: '20px', textAlign: 'center' }}>
+        <h2 style={{ color: 'red', fontWeight: 'bold' }}>
+          Paper submission is OPEN (31st August 2025)
+        </h2>
+        <p>Due to numerous requests from authors, the deadline for paper submission has been extended. Submissions made during this period will be considered for Round 2.</p>
       </div>
+
+      <h2 className="committee-heading" style={{ color: '#0021f3' }}>Important Dates</h2>
+      <motion.div 
+  className="dates-wrapper"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: "easeOut" }}
+>
+  {renderDates('Round 2 (Active)', round2Dates, 'active')}
+  {renderDates('Round 1 (Inactive)', round1Dates, 'inactive')}
+</motion.div>
+
+      <p style={{ marginTop: '15px', fontStyle: 'italic' }}>
+        Important Information: The submitted papers are currently under peer review, and notifications will be provided as per the announced schedule.
+      </p>
     </div>
   );
 };
-
 export default Schedule;
