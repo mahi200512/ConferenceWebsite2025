@@ -63,8 +63,7 @@ const About = () => {
   </div>
 
   <div className="banner-bottom-right">
-    <p>Submission Deadline : 25th September 2025</p>
-    <p>(No Further Extension)</p>
+    Submission Deadline : 25th September 2025
   </div>
            </div>
            

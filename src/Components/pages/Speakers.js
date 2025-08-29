@@ -34,6 +34,14 @@ const speakersData = [
     image: process.env.PUBLIC_URL + "/images/vyas.jpeg"
   },
 
+
+{
+    name: "Prof. Antonio Puliafito",
+    organization: "Full Professor, Università di Messina, Italy",
+    webpage: "https://it.iiita.ac.in/?pg=facultypage&uid=opvyas",
+    image: process.env.PUBLIC_URL + "/images/Antonio.png"
+  },
+
   {
     name: "Prof. Santi P. Maity",
     organization: "Professor, IIEST Shibpur",
