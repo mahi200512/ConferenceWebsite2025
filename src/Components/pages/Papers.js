@@ -65,7 +65,7 @@ const Papers = () => {
       <div className="call-for-papers">
 
         <h2> <a style={{ color: '#0021f3', fontWeight: 'bold' }}>
-        Call for Papers (Paper submission Deadline:31st Aug. 2025)
+        Call for Papers (Paper submission Deadline:25th September 2025)
         </a> </h2>
 
 
