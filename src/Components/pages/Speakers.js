@@ -21,7 +21,7 @@ const speakersData = [
 
     {
     name: "Prof. Sandeep Shukla",
-    organization: "Professor, IIT Kanpur",
+    organization: "Professor, IIT Kanpur (Currently, Director, IIIT Hyderabad)",
     webpage: "https://www.iitk.ac.in/new/sandeep-k-shukla",
     image: process.env.PUBLIC_URL + "/images/Prof_Sandeep_Shukla.jpg"
 
@@ -29,7 +29,7 @@ const speakersData = [
 
  {
     name: "Prof. Om Prakash Vyas",
-    organization: "Professor, IIIT Allahabad",
+    organization: "Professor, IIIT Allahabad (Currently, Director, IIIT Naya Raipur)",
     webpage: "https://it.iiita.ac.in/?pg=facultypage&uid=opvyas",
     image: process.env.PUBLIC_URL + "/images/vyas.jpeg"
   },

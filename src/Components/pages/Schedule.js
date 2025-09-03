@@ -99,7 +99,7 @@ const Schedule = () => {
       <div className="scrolling-strip">
         <ul className="scrolling-list">
         <li><a href="/Schedule">📅 Conference Date: 14-16 January, 2026</a></li>
-        <li><a href="/Schedule">📅 Deadline: 25th September 2025</a></li>
+        <li><a href="/Schedule">📅 Hard Deadline:10th October 2025</a></li>
          <li><a href="https://link.springer.com/book/9789819642724">Proceeding of ICISS 2024</a></li>
         <li><a href="/Schedule">📅 Conference Schedule</a></li>
           <li><a href="/news">📰 Latest News</a></li>
@@ -109,7 +109,7 @@ const Schedule = () => {
       </div>
        <div style={{ marginTop: '20px', textAlign: 'center' }}>
         <h2 style={{ color: 'red', fontWeight: 'bold' }}>
-          Paper submission deadline (No Further Extension) : 25th September2025
+          Paper submission deadline (No Further Extension) : 10th October 2025
         </h2>
         <p>Due to numerous requests from authors, the deadline for paper submission has been extended. Submissions made during this period will be considered for Round 2.</p>
       </div>
