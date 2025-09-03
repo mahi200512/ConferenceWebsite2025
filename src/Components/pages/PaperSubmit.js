@@ -51,7 +51,7 @@ const PaperSubmit = () => {
               <div className="scrolling-strip">
                 <ul className="scrolling-list">
                 <li><a href="/Schedule">📅 Conference Date: 14-16 January, 2026</a></li>
-        <li><a href="/Schedule">📅 Deadline:25th September 2025</a></li>
+        <li><a href="/Schedule">📅 Hard Deadline:10th October 2025</a></li>
 
         <li><a href="https://link.springer.com/book/9789819642724">Proceeding of ICISS 2024</a></li>
         <li><a href="/Schedule">📅 Conference Schedule</a></li>
@@ -63,7 +63,7 @@ const PaperSubmit = () => {
 
               
         
-      <h1 className='Authguideline'style={{ color: '#0021f3' }}>Author's Guidelines (Submission Deadline 25th September 2025)</h1>
+      <h1 className='Authguideline'style={{ color: '#0021f3' }}>Author's Guidelines (Hard Deadline 10th October 2025)</h1>
       <ol className='AuthRules'>
         <li>Each paper must be original and unpublished work, not submitted for publication elsewhere. Authors are responsible for avoiding any copyright infringement issues. Papers should be written in good English.</li>
         <li>Submissions must be anonymous, without author name(s), affiliation(s), acknowledgments, or obvious references in LNNS Format (Word, LaTeX).</li>

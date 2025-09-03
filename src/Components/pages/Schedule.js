@@ -11,10 +11,10 @@ const bannerImages = [
 ];
 
 const round2Dates = [
-  { event: "Paper Submission Deadline(Final call)", date: "25th September 2025", highlight: true },
-  { event: "Acceptance Notification", date: "20th October 2025" },
-  { event: "Camera Ready Paper Submission", date: "25th October 2025" },
-  { event: "Registration Deadline", date: "5th November 2025" },
+  { event: "Paper Submission Deadline(Final call)", date: "10th October 2025", highlight: true },
+  { event: "Acceptance Notification", date: "30th October 2025" },
+  { event: "Camera Ready Paper Submission", date: "5th November 2025" },
+  { event: "Registration Deadline", date: "10th November 2025" },
   { event: "Conference Date", date: "14-16 January, 2026" }
 ];
 
