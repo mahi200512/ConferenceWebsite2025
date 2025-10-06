@@ -21,6 +21,7 @@ const round2Dates = [
 const round1Dates = [
   { event: "Paper Submission Deadline", date: "14th August 2025"},
   { event: "Acceptance Notification", date: "1st October 2025" },
+  { event: "Revised Notification (Due large No. of Paper submission)", date: "10th October 2025" },
   { event: "Camera Ready Paper Submission", date: "25th October 2025" },
   { event: "Registration Deadline", date: "5th November 2025" },
   { event: "Conference Date", date: "14-16 January, 2026" }
