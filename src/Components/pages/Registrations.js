@@ -115,23 +115,23 @@ const Registrations = () => {
           <tbody>
             <tr>
               <td><strong>Bank Name</strong></td>
-              <td>[Insert Bank Name]</td>
+              <td>Union Bank of India</td>
             </tr>
             <tr>
               <td><strong>Account Number</strong></td>
-              <td>[Insert Account Number]</td>
+              <td>581202010012328</td>
             </tr>
             <tr>
               <td><strong>Account Holder Name</strong></td>
-              <td>[Insert Account Holder Name]</td>
+              <td>IIITNR Project 03</td>
             </tr>
             <tr>
-              <td><strong>Branch Name and Address</strong></td>
-              <td>[Insert Branch Name and Address]</td>
+              <td><strong>Branch Name</strong></td>
+              <td>Nimora</td>
             </tr>
             <tr>
               <td><strong>IFSC Code</strong></td>
-              <td>[Insert IFSC Code]</td>
+              <td>UBIN0558125</td>
             </tr>
           </tbody>
         </table>
