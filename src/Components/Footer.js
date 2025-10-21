@@ -60,7 +60,7 @@ useEffect(() => {
           <h3>Contact Person</h3>
           <p> Ruhul Amin<br/>+91 88041 52340</p>
           <p> Vinay Kumar<br/>+91 94546 90527</p>
-          <a href="mailto:iciss2026@iiitnr.edu.in"><p><Link to="/contact">Email: iciss2026@iiitnr.edu.in</Link></p></a>
+          <a href="mailto:iciss2026@iiitnr.ac.in"><p><Link to="/contact">Email: iciss2026@iiitnr.ac.in</Link></p></a>
         </div>
 
         <div className="footer-section">
