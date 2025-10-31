@@ -119,7 +119,7 @@ ICISS 2026 seeks to promote the exchange of knowledge, breakthroughs, and practi
 ICISS 2026 welcomes original contributions in the form of research papers, case studies, and industry presentations. The conference covers a broad spectrum of topics at the intersection of intelligent systems and security, and encourages submissions that employ multidisciplinary approaches. Contributions may span theoretical research, practical implementations, and novel case applications.</p>
 
 <p><b>Publication and Indexing:</b><br/>
-All accepted and presented papers will be published in the Lecture Notes in Networks and Systems (LNNS) series (Approval Pending), which is indexed by SCOPUS, INSPEC, WTI Frankfurt EG, ZbMATH, SCImago, and Web of Science.</p>
+All accepted and presented papers will be published in the Lecture Notes in Networks and Systems (LNNS) series, which is indexed by SCOPUS, INSPEC, WTI Frankfurt EG, ZbMATH, SCImago, and Web of Science.</p>
 
 </p>
       <p className="about-highlight" data-aos="fade-left">
