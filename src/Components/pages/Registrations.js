@@ -55,6 +55,21 @@ const Registrations = () => {
         </ul>
       </div>
 
+
+<p style={{ textAlign: "right" }}>
+        <a
+          href="https://forms.gle/EfNqtCnUHYsHsHFg6"
+          style={{ color: "red", textDecoration: "none" }}
+        >
+          <b>Registration Form(Click here)</b>
+        </a>
+      </p>
+
+
+
+
+
+
       <h1 className="registration-title">Registration & Fees Details</h1>
 
       <p className="registration-text">
