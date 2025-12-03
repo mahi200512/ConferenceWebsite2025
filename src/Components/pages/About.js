@@ -93,10 +93,10 @@ const About = () => {
 
       <p style={{ textAlign: "right" }}>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSf65qagWyCfYzKd9yapTuGvBjwdr7yWCVlV62BbDD2vnMNWtQ/viewform?usp=preview"
+          href="https://drive.google.com/drive/u/2/folders/1KGhe9T_0NyeyQ6r7AtDTw6T6w7p0Y-N8"
           style={{ color: "red", textDecoration: "none" }}
         >
-          <b>Call for Reviewers</b>
+          <b>Accepted Paper and Schedule</b>
         </a>
       </p>
 
